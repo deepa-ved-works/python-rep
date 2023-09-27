@@ -1,0 +1,2 @@
+Today is the day you start learning about logic. Up to this point you have done everything you possibly
+can reading and writing files, to the Terminal, and have learned quite a lot of the math capabilities of python 

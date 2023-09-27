@@ -1,0 +1,6 @@
+raw_bytes = b'\xe6\x96\x87\xe8\xa8\x80'
+utf_string = "丈言"
+raw_bytes.decode()
+'文言'
+utf_string.encode()
+b'\xe4\xb8\x88\xe5\x94\x81'
