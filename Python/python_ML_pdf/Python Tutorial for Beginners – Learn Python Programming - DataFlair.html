@@ -1,0 +1,1155 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://data-flair.training/blogs/xmlrpc.php">
+<style id="wfc-base-style" type="text/css">
+             .wfc-reset-menu-item-first-letter .navbar .nav>li>a:first-letter {font-size: inherit;}.format-icon:before {color: #5A5A5A;}article .format-icon.tc-hide-icon:before, .safari article.format-video .format-icon.tc-hide-icon:before, .chrome article.format-video .format-icon.tc-hide-icon:before, .safari article.format-image .format-icon.tc-hide-icon:before, .chrome article.format-image .format-icon.tc-hide-icon:before, .safari article.format-gallery .format-icon.tc-hide-icon:before, .safari article.attachment .format-icon.tc-hide-icon:before, .chrome article.format-gallery .format-icon.tc-hide-icon:before, .chrome article.attachment .format-icon.tc-hide-icon:before {content: none!important;}h2#tc-comment-title.tc-hide-icon:before {content: none!important;}.archive .archive-header h1.format-icon.tc-hide-icon:before {content: none!important;}.tc-sidebar h3.widget-title.tc-hide-icon:before {content: none!important;}.footer-widgets h3.widget-title.tc-hide-icon:before {content: none!important;}.tc-hide-icon i, i.tc-hide-icon {display: none !important;}.carousel-control {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}.social-block a {font-size: 18px;}footer#footer .colophon .social-block a {font-size: 16px;}.social-block.widget_social a {font-size: 14px;}
+        </style>
+<style id="wfc-style-fonts-body" type="text/css" data-origin="server">
+/* Setting : Default website font */ 
+body {
+font-family : Georgia,Georgia,serif!important;
+}
+
+</style><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<link media="all" href="https://data-flair.training/blogs/wp-content/cache/autoptimize/2/css/autoptimize_953f741a17d7274614b5696b96cc72a4.css" rel="stylesheet" /><title>Python Tutorial for Beginners – Learn Python Programming - DataFlair</title>
+<meta name="description" content="Python tutorial for beginners - Start learning python and become the next data scientist. Get path for planning Python career as a fresher." />
+<link rel="canonical" href="https://data-flair.training/blogs/python-tutorial/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Python Tutorial for Beginners – Learn Python Programming - DataFlair" />
+<meta property="og:description" content="Python tutorial for beginners - Start learning python and become the next data scientist. Get path for planning Python career as a fresher." />
+<meta property="og:url" content="https://data-flair.training/blogs/python-tutorial/" />
+<meta property="og:site_name" content="DataFlair" />
+<meta property="article:publisher" content="https://www.facebook.com/DataFlairWS/" />
+<meta property="article:published_time" content="2017-12-15T02:19:15+00:00" />
+<meta property="article:modified_time" content="2021-08-25T08:41:46+00:00" />
+<meta property="og:image" content="https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/Python-Tutorial-1.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@DataFlairWS" />
+<meta name="twitter:site" content="@DataFlairWS" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="DataFlair Team" />
+<meta name="twitter:label2" content="Est. reading time" />
+<meta name="twitter:data2" content="6 minutes" />
+
+<link href='https://www.googletagmanager.com' rel='preconnect' />
+<link href='https://fonts.gstatic.com' crossorigin='anonymous' rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="DataFlair &raquo; Feed" href="https://data-flair.training/blogs/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DataFlair &raquo; Comments Feed" href="https://data-flair.training/blogs/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DataFlair &raquo; Python Tutorial for Beginners – Learn Python Programming Comments Feed" href="https://data-flair.training/blogs/python-tutorial/feed/" />
+<link rel='stylesheet' id='learndash_quiz_front_css-css' href='//data-flair.training/blogs/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_quiz_front.min.css' media='all' />
+<link rel='stylesheet' id='parent-style-css' href='https://data-flair.training/blogs/wp-content/themes/hueman-pro/style.css' media='all' />
+<style id='hueman-main-style-inline-css'>
+body { font-family:Georgia, serif;font-size:1.00rem }@media only screen and (min-width: 720px) {
+        .nav > li { font-size:1.00rem; }
+      }.container-inner { max-width: 2560px; }.sidebar .widget { padding-left: 20px; padding-right: 20px; padding-top: 20px; }::selection { background-color: #c86b01; }
+::-moz-selection { background-color: #c86b01; }a,a>span.hu-external::after,.themeform label .required,#flexslider-featured .flex-direction-nav .flex-next:hover,#flexslider-featured .flex-direction-nav .flex-prev:hover,.post-hover:hover .post-title a,.post-title a:hover,.sidebar.s1 .post-nav li a:hover i,.content .post-nav li a:hover i,.post-related a:hover,.sidebar.s1 .widget_rss ul li a,#footer .widget_rss ul li a,.sidebar.s1 .widget_calendar a,#footer .widget_calendar a,.sidebar.s1 .alx-tab .tab-item-category a,.sidebar.s1 .alx-posts .post-item-category a,.sidebar.s1 .alx-tab li:hover .tab-item-title a,.sidebar.s1 .alx-tab li:hover .tab-item-comment a,.sidebar.s1 .alx-posts li:hover .post-item-title a,#footer .alx-tab .tab-item-category a,#footer .alx-posts .post-item-category a,#footer .alx-tab li:hover .tab-item-title a,#footer .alx-tab li:hover .tab-item-comment a,#footer .alx-posts li:hover .post-item-title a,.comment-tabs li.active a,.comment-awaiting-moderation,.child-menu a:hover,.child-menu .current_page_item > a,.wp-pagenavi a{ color: #c86b01; }input[type="submit"],.themeform button[type="submit"],.sidebar.s1 .sidebar-top,.sidebar.s1 .sidebar-toggle,#flexslider-featured .flex-control-nav li a.flex-active,.post-tags a:hover,.sidebar.s1 .widget_calendar caption,#footer .widget_calendar caption,.author-bio .bio-avatar:after,.commentlist li.bypostauthor > .comment-body:after,.commentlist li.comment-author-admin > .comment-body:after{ background-color: #c86b01; }.post-format .format-container { border-color: #c86b01; }.sidebar.s1 .alx-tabs-nav li.active a,#footer .alx-tabs-nav li.active a,.comment-tabs li.active a,.wp-pagenavi a:hover,.wp-pagenavi a:active,.wp-pagenavi span.current{ border-bottom-color: #c86b01!important; }.sidebar.s2 .post-nav li a:hover i,
+.sidebar.s2 .widget_rss ul li a,
+.sidebar.s2 .widget_calendar a,
+.sidebar.s2 .alx-tab .tab-item-category a,
+.sidebar.s2 .alx-posts .post-item-category a,
+.sidebar.s2 .alx-tab li:hover .tab-item-title a,
+.sidebar.s2 .alx-tab li:hover .tab-item-comment a,
+.sidebar.s2 .alx-posts li:hover .post-item-title a { color: #65abf6; }
+.sidebar.s2 .sidebar-top,.sidebar.s2 .sidebar-toggle,.post-comments,.jp-play-bar,.jp-volume-bar-value,.sidebar.s2 .widget_calendar caption{ background-color: #65abf6; }.sidebar.s2 .alx-tabs-nav li.active a { border-bottom-color: #65abf6; }
+.post-comments::before { border-right-color: #65abf6; }
+      .search-expand,
+              #nav-topbar.nav-container { background-color: #5ba1ec}@media only screen and (min-width: 720px) {
+                #nav-topbar .nav ul { background-color: #5ba1ec; }
+              }.is-scrolled #header .nav-container.desktop-sticky,
+              .is-scrolled #header .search-expand { background-color: #5ba1ec; background-color: rgba(91,161,236,0.90) }.is-scrolled .topbar-transparent #nav-topbar.desktop-sticky .nav ul { background-color: #5ba1ec; background-color: rgba(91,161,236,0.95) }#header { background-color: #f0f0f0; }
+@media only screen and (min-width: 720px) {
+  #nav-header .nav ul { background-color: #f0f0f0; }
+}
+        #header #nav-mobile { background-color: #5ba1ec; }.is-scrolled #header #nav-mobile { background-color: #5ba1ec; background-color: rgba(91,161,236,0.90) }.site-title a img { max-height: 70px; }body { background-color: #eaeaea; }
+</style>
+<link rel='stylesheet' id='theme-stylesheet-css' href='https://data-flair.training/blogs/wp-content/cache/autoptimize/2/css/autoptimize_single_153266984e4be8e6eb8f0b1d87405b80.css' media='all' />
+<link rel='stylesheet' id='enlighterjs-css' href='https://data-flair.training/blogs/wp-content/plugins/enlighter/cache/X2_enlighterjs.min.css' media='all' />
+<script src='https://data-flair.training/blogs/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js' type="0fc4ef21af7123d7290dc0e0-text/javascript"></script>
+<link rel="https://api.w.org/" href="https://data-flair.training/blogs/wp-json/" /><link rel="alternate" type="application/json" href="https://data-flair.training/blogs/wp-json/wp/v2/posts/5235" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://data-flair.training/blogs/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://data-flair.training/blogs/wp-includes/wlwmanifest.xml" />
+<link rel='shortlink' href='https://data-flair.training/blogs/?p=5235' />
+<link rel="alternate" type="application/json+oembed" href="https://data-flair.training/blogs/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdata-flair.training%2Fblogs%2Fpython-tutorial%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://data-flair.training/blogs/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdata-flair.training%2Fblogs%2Fpython-tutorial%2F&#038;format=xml" />
+<link rel="preload" as="font" type="font/woff2" href="https://data-flair.training/blogs/wp-content/themes/hueman-pro/assets/front/webfonts/fa-brands-400.woff2?v=5.15.2" crossorigin="anonymous" />
+<link rel="preload" as="font" type="font/woff2" href="https://data-flair.training/blogs/wp-content/themes/hueman-pro/assets/front/webfonts/fa-regular-400.woff2?v=5.15.2" crossorigin="anonymous" />
+<link rel="preload" as="font" type="font/woff2" href="https://data-flair.training/blogs/wp-content/themes/hueman-pro/assets/front/webfonts/fa-solid-900.woff2?v=5.15.2" crossorigin="anonymous" />
+<!--[if lt IE 9]>
+<script src="https://data-flair.training/blogs/wp-content/themes/hueman-pro/assets/front/js/ie/html5shiv-printshiv.min.js"></script>
+<script src="https://data-flair.training/blogs/wp-content/themes/hueman-pro/assets/front/js/ie/selectivizr.js"></script>
+<![endif]-->
+
+<script type="application/ld+json" class="saswp-schema-markup-output">
+[{"@context":"https:\/\/schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https:\/\/data-flair.training\/blogs#Organization","name":"DataFlair","url":"https:\/\/data-flair.training\/blogs","sameAs":["https:\/\/www.facebook.com\/DataFlairWS\/","https:\/\/twitter.com\/DataFlairWS","https:\/\/www.instagram.com\/dataflair\/","https:\/\/www.youtube.com\/user\/DataFlairWS","https:\/\/www.linkedin.com\/company\/dataflair-web-services-pvt-ltd","https:\/\/in.pinterest.com\/DataFlair_Big_Data_Science\/"],"logo":{"@type":"ImageObject","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2016\/11\/DataFlair_Logo_.png","width":"150","height":"68"},"contactPoint":{"@type":"ContactPoint","contactType":"customer support","telephone":"+91-8451097879","url":"https:\/\/data-flair.training\/contact-us\/"}},{"@type":"WebSite","@id":"https:\/\/data-flair.training\/blogs#website","headline":"DataFlair","name":"DataFlair","description":"Learn Today. Lead Tomorrow.","url":"https:\/\/data-flair.training\/blogs","potentialAction":{"@type":"SearchAction","target":"https:\/\/data-flair.training\/blogs\/?s={search_term_string}","query-input":"required name=search_term_string"},"publisher":{"@id":"https:\/\/data-flair.training\/blogs#Organization"}},{"@context":"https:\/\/schema.org","@type":"WebPage","@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#webpage","name":"Python Tutorial for Beginners \u2013 Learn Python Programming","url":"https:\/\/data-flair.training\/blogs\/python-tutorial\/","lastReviewed":"2021-08-25T14:11:46+05:30","dateCreated":"2017-12-15T07:49:15+05:30","inLanguage":"en-US","description":"Python tutorial for beginners - Start learning python and become the next data scientist. Get path for planning Python career as a fresher.","reviewedBy":{"@type":"Organization","name":"DataFlair","url":"https:\/\/data-flair.training\/blogs","logo":{"@type":"ImageObject","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2016\/11\/DataFlair_Logo_.png","width":"150","height":"68"}},"primaryImageOfPage":{"@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#primaryimage"},"isPartOf":{"@id":"https:\/\/data-flair.training\/blogs#website"},"breadcrumb":{"@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/data-flair.training\/blogs","name":"DataFlair"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/data-flair.training\/blogs\/category\/python\/","name":"Python Tutorials"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/","name":"Python Tutorial for Beginners \u2013 Learn Python Programming"}}]},{"@type":"NewsArticle","@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#newsarticle","url":"https:\/\/data-flair.training\/blogs\/python-tutorial\/","headline":"Python Tutorial for Beginners \u2013 Learn Python Programming","mainEntityOfPage":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#webpage","datePublished":"2017-12-15T07:49:15+05:30","dateModified":"2021-08-25T14:11:46+05:30","description":"Python tutorial for beginners - Start learning python and become the next data scientist. Get path for planning Python career as a fresher.","articleSection":"Python Tutorials","articleBody":"Welcome to the World of Python. Are you eager to know and learn Python - The Most Powerful and Popular Programming Langauge? Then start with this Python Tutorial now.    Here is a quick overview of what you are going to learn today in this Python Introduction-\u00a0     \tPython Introduction   \tPython History\u00a0   \tFeatures of Python   \tApplications of Python   \tArchitecture and Working of Python   \tPython Constructs    Do not forget to check frequently asked interview questions from this topic at the end.  What is Python?  Python is a General Purpose object-oriented programming language, which means that it can model real-world entities. It is also dynamically-typed because it carries out type-checking at runtime.    It does so to make sure that the type of construct matches what we expect it to be.    The distinctive feature of Python is that it is an interpreted language.    The Python IDLE (Integrated Development Environment) executes instructions one line at a time. This also lets us use it as a calculator.  Why is it called Python?  Guido van Rossum named it after the comedy group Monty Python. That is why the metasyntactic variables (those we will often use to explain code syntax) used here are \u2018spam\u2019 and \u2018eggs\u2019 instead of \u2018foo\u2019 and \u2018bar\u2019.  History of Python      &nbsp;     \tPython was conceived in the late 1980s and was named after the BBC TV show Monty Python's Flying Circus.   \tGuido van Rossum started implementing Python at CWI in the Netherlands in December of 1989.    \tThis was a successor to the ABC programming language which was capable of exception handling and interfacing with the Amoeba operating system.   \tOn October 16 of 2000, Python 2.0 released with many new features.   \tThen Python 3.0 released on December 3, 2008.    Why Learn Python?  Python is the \"most powerful language you can still read\", Says Paul Dubois  Python is one of the richest Programming languages.    Going by the TIOBE Index, it is the Second Most Popular Programming Language in the world.    This makes a career in Python a great choice.  Python Features  Let us now see various features of Python that make it so powerful and popular:        &nbsp;    a. Easy    Python is very easy to learn and understand; any beginner can learn Python easily. When writing code in Python, you need fewer lines of code compared to languages like Java.    b. Interpreted    It is interpreted(executed) line by line. This makes it easy to test and debug.    c. Object-Oriented    The Python programming language supports classes and objects and hence it is object-oriented.    d. Free and Open Source    The language and its source code are available to the public for free; there is no need to buy a costly license.    e. Portable    Since Python is open-source, you can run it on Windows, Mac, Linux or any other platform. Your programs will work without any need to change it for every machine.    f. GUI Programming    You can use it to develop a GUI (Graphical User Interface). One way to do this is through Tkinter.    g. Large Python Library    Python provides you with a large standard library.    You can use it to implement a variety of functions without the need to reinvent the wheel every time. Just pick the code you need and continue.    In this Python tutorial, we have provided a short description. You must read them in detail at \u00a0Python Programming Features  Applications of Python  Python is easy to pick-up even if you come from a non-programming background. You can look at the code and tell what\u2019s going on.    Talking of Python applications, some of the cool things that you can do are -     \tBuild a website using Python   \tDevelop a game in Python   \tPerform Computer Vision (Facilities like face-detection and color-detection)   \tImplement Machine Learning (Give a computer the ability to learn)   \tEnable Robotics with Python   \tPerform Web Scraping (Harvest data from websites)   \tPerform Data Analysis using Python   \tAutomate a web browser   \tPerform Scripting in Python   \tPerform Scientific Computing using Python   \tBuild Artificial Intelligence    Python isn\u2019t limited to these applications. If you\u2019ve ever used services from brands like YouTube, Dropbox, and Netflix, then you\u2019ve been a consumer of Python.    The search-engine Google also made great use of this language in its initial stages.  Python Architecture and Working  Let's now talk about Python architecture and its usual flow -    a. Parser    It uses the source code to generate an abstract syntax tree.    b. Compiler    It turns the abstract syntax tree into Python bytecode.    c. Interpreter    It executes the code line by line in a REPL (Read-Evaluate-Print-Loop) fashion.  Python Constructs  a. Functions in Python  A function in Python is a collection of statements grouped under a name. You can use it whenever you want to execute all those statements at a time.    You can call it wherever you want and as many times as you want in a program. A function may return a value.  b. Classes in Python  As we discussed earlier, Python is an object-oriented language. It supports classes and objects.    A class is an abstract data type. In other words, it is a blueprint for an object of a certain kind. It holds no values.    An object is a real-world entity and an instance of a class.  c. Modules in Python  Python module is a collection of related classes and functions.    We have modules for mathematical calculations, string manipulations, web programming, and many more.  d. Packages in Python  Python package is a collection of related modules. You can either import a package or create your own.  e. List in Python  You can think of a list as a collection of values. Declared in the CSV (Comma-Separated Values) format and delimit using square brackets:  life  ;  arity  ;  Notice that we do not declare the type for the list either. A list may also contain elements of different types, and the indexing begins at 0:  person  ;  print(person)  Output: 21    You can also slice lists; slicing is a way of retrieving some values from it. We will learn more about it in further lessons.  f. Tuple in Python  A tuple is like a list, but it is immutable (you cannot change its values).  pizza  (\u2018base\u2019, \u2018sauce\u2019, \u2018cheese\u2019, \u2018mushroom\u2019);  pizza  \u2018jalapeno\u2019  This raises a TypeError.  g. Dictionary in Python  A dictionary is a collection of key-value pairs. Declare it using curly braces, and commas to separate key-value pairs.    Also, separate values from keys using a colon (:).  student  {\u2018Name\u2019: \u2018Abc\u2019, \u2018Age\u2019: 21}  print(student)  Output: 21  h. Comments and Docstrings in Python  Declare comments using an octothorpe (#). However, Python does not support multiline comments.    Docstrings are documentation strings that help explain the code.  #This is a comment  \u201c\u201c\u201c  This is a docstring  \u201d\u201d\u201d  Python has a lot of other constructs. These include control structures, functions, exceptions, etc.    Interested in learning python in detail? Just follow the sidebar and learn Python completely.  Python Interview Questions for Beginners  Below are some of the frequently asked Python Interview questions from this tutorial:     \tHow does Python get its name?   \tWhat are the Features of Python that make it so popular?   \tDefine Modules in Python?   \tWhat is the difference between List and Tuple in Python?   \tCompare Python with Java    Summary  This was all about Python Tutorial where you learnt what is python, why python is so powerful, what are the applications of Python and basic architecture and constructs of python.","keywords":"Learn Python, Python Applications, Python architecture, Python Complete Guide, Python Constructs, python for beginners, Python History, Python introduction, Python School Programming, python tutorial, What is Python, ","name":"Python Tutorial for Beginners \u2013 Learn Python Programming","thumbnailUrl":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2017\/12\/Python-Tutorial-1-150x79.jpg","wordCount":"1129","timeRequired":"PT5M1S","mainEntity":{"@type":"WebPage","@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/"},"author":{"@type":"Person","name":"DataFlair Team","description":"","url":"https:\/\/data-flair.training\/blogs\/author\/dfteam1\/","sameAs":[],"image":{"@type":"ImageObject","url":"https:\/\/secure.gravatar.com\/avatar\/8e4845cd37ceee2c72c0de9ee296ba1b?s=96&d=mm&r=g","height":96,"width":96}},"editor":{"@type":"Person","name":"DataFlair Team","description":"","url":"https:\/\/data-flair.training\/blogs\/author\/dfteam1\/","sameAs":[],"image":{"@type":"ImageObject","url":"https:\/\/secure.gravatar.com\/avatar\/8e4845cd37ceee2c72c0de9ee296ba1b?s=96&d=mm&r=g","height":96,"width":96}},"publisher":{"@id":"https:\/\/data-flair.training\/blogs#Organization"},"image":[{"@type":"ImageObject","@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#primaryimage","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2017\/12\/Python-Tutorial-1-1200x900.jpg","width":"1200","height":"900"},{"@type":"ImageObject","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2017\/12\/Python-Tutorial-1-1200x720.jpg","width":"1200","height":"720"},{"@type":"ImageObject","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2017\/12\/Python-Tutorial-1-1200x675.jpg","width":"1200","height":"675"},{"@type":"ImageObject","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2017\/12\/History-of-Python-1.jpg","width":800,"height":550},{"@type":"ImageObject","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2017\/12\/Python-features-1.jpg","width":900,"height":900}],"isPartOf":{"@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#webpage"}}]},
+
+{"@context":"https:\/\/schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https:\/\/data-flair.training\/blogs#Organization","name":"DataFlair","url":"https:\/\/data-flair.training\/blogs","sameAs":["https:\/\/www.facebook.com\/DataFlairWS\/","https:\/\/twitter.com\/DataFlairWS","https:\/\/www.instagram.com\/dataflair\/","https:\/\/www.youtube.com\/user\/DataFlairWS","https:\/\/www.linkedin.com\/company\/dataflair-web-services-pvt-ltd","https:\/\/in.pinterest.com\/DataFlair_Big_Data_Science\/"],"logo":{"@type":"ImageObject","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2016\/11\/DataFlair_Logo_.png","width":"150","height":"68"},"contactPoint":{"@type":"ContactPoint","contactType":"customer support","telephone":"+91-8451097879","url":"https:\/\/data-flair.training\/contact-us\/"}},{"@type":"WebSite","@id":"https:\/\/data-flair.training\/blogs#website","headline":"DataFlair","name":"DataFlair","description":"Learn Today. Lead Tomorrow.","url":"https:\/\/data-flair.training\/blogs","potentialAction":{"@type":"SearchAction","target":"https:\/\/data-flair.training\/blogs\/?s={search_term_string}","query-input":"required name=search_term_string"},"publisher":{"@id":"https:\/\/data-flair.training\/blogs#Organization"}},{"@context":"https:\/\/schema.org","@type":"WebPage","@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#webpage","name":"Python Tutorial for Beginners \u2013 Learn Python Programming","url":"https:\/\/data-flair.training\/blogs\/python-tutorial\/","lastReviewed":"2021-08-25T14:11:46+05:30","dateCreated":"2017-12-15T07:49:15+05:30","inLanguage":"en-US","description":"Python tutorial for beginners - Start learning python and become the next data scientist. Get path for planning Python career as a fresher.","reviewedBy":{"@type":"Organization","name":"DataFlair","url":"https:\/\/data-flair.training\/blogs","logo":{"@type":"ImageObject","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2016\/11\/DataFlair_Logo_.png","width":"150","height":"68"}},"primaryImageOfPage":{"@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#primaryimage"},"isPartOf":{"@id":"https:\/\/data-flair.training\/blogs#website"},"breadcrumb":{"@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/data-flair.training\/blogs","name":"DataFlair"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/data-flair.training\/blogs\/category\/python\/","name":"Python Tutorials"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/","name":"Python Tutorial for Beginners \u2013 Learn Python Programming"}}]},{"@type":"Article","@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#Article","url":"https:\/\/data-flair.training\/blogs\/python-tutorial\/","inLanguage":"en-US","mainEntityOfPage":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#webpage","headline":"Python Tutorial for Beginners \u2013 Learn Python Programming","description":"Python tutorial for beginners - Start learning python and become the next data scientist. Get path for planning Python career as a fresher.","articleBody":"Welcome to the World of Python. Are you eager to know and learn Python - The Most Powerful and Popular Programming Langauge? Then start with this Python Tutorial now.    Here is a quick overview of what you are going to learn today in this Python Introduction-\u00a0     \tPython Introduction   \tPython History\u00a0   \tFeatures of Python   \tApplications of Python   \tArchitecture and Working of Python   \tPython Constructs    Do not forget to check frequently asked interview questions from this topic at the end.  What is Python?  Python is a General Purpose object-oriented programming language, which means that it can model real-world entities. It is also dynamically-typed because it carries out type-checking at runtime.    It does so to make sure that the type of construct matches what we expect it to be.    The distinctive feature of Python is that it is an interpreted language.    The Python IDLE (Integrated Development Environment) executes instructions one line at a time. This also lets us use it as a calculator.  Why is it called Python?  Guido van Rossum named it after the comedy group Monty Python. That is why the metasyntactic variables (those we will often use to explain code syntax) used here are \u2018spam\u2019 and \u2018eggs\u2019 instead of \u2018foo\u2019 and \u2018bar\u2019.  History of Python      &nbsp;     \tPython was conceived in the late 1980s and was named after the BBC TV show Monty Python's Flying Circus.   \tGuido van Rossum started implementing Python at CWI in the Netherlands in December of 1989.    \tThis was a successor to the ABC programming language which was capable of exception handling and interfacing with the Amoeba operating system.   \tOn October 16 of 2000, Python 2.0 released with many new features.   \tThen Python 3.0 released on December 3, 2008.    Why Learn Python?  Python is the \"most powerful language you can still read\", Says Paul Dubois  Python is one of the richest Programming languages.    Going by the TIOBE Index, it is the Second Most Popular Programming Language in the world.    This makes a career in Python a great choice.  Python Features  Let us now see various features of Python that make it so powerful and popular:        &nbsp;    a. Easy    Python is very easy to learn and understand; any beginner can learn Python easily. When writing code in Python, you need fewer lines of code compared to languages like Java.    b. Interpreted    It is interpreted(executed) line by line. This makes it easy to test and debug.    c. Object-Oriented    The Python programming language supports classes and objects and hence it is object-oriented.    d. Free and Open Source    The language and its source code are available to the public for free; there is no need to buy a costly license.    e. Portable    Since Python is open-source, you can run it on Windows, Mac, Linux or any other platform. Your programs will work without any need to change it for every machine.    f. GUI Programming    You can use it to develop a GUI (Graphical User Interface). One way to do this is through Tkinter.    g. Large Python Library    Python provides you with a large standard library.    You can use it to implement a variety of functions without the need to reinvent the wheel every time. Just pick the code you need and continue.    In this Python tutorial, we have provided a short description. You must read them in detail at \u00a0Python Programming Features  Applications of Python  Python is easy to pick-up even if you come from a non-programming background. You can look at the code and tell what\u2019s going on.    Talking of Python applications, some of the cool things that you can do are -     \tBuild a website using Python   \tDevelop a game in Python   \tPerform Computer Vision (Facilities like face-detection and color-detection)   \tImplement Machine Learning (Give a computer the ability to learn)   \tEnable Robotics with Python   \tPerform Web Scraping (Harvest data from websites)   \tPerform Data Analysis using Python   \tAutomate a web browser   \tPerform Scripting in Python   \tPerform Scientific Computing using Python   \tBuild Artificial Intelligence    Python isn\u2019t limited to these applications. If you\u2019ve ever used services from brands like YouTube, Dropbox, and Netflix, then you\u2019ve been a consumer of Python.    The search-engine Google also made great use of this language in its initial stages.  Python Architecture and Working  Let's now talk about Python architecture and its usual flow -    a. Parser    It uses the source code to generate an abstract syntax tree.    b. Compiler    It turns the abstract syntax tree into Python bytecode.    c. Interpreter    It executes the code line by line in a REPL (Read-Evaluate-Print-Loop) fashion.  Python Constructs  a. Functions in Python  A function in Python is a collection of statements grouped under a name. You can use it whenever you want to execute all those statements at a time.    You can call it wherever you want and as many times as you want in a program. A function may return a value.  b. Classes in Python  As we discussed earlier, Python is an object-oriented language. It supports classes and objects.    A class is an abstract data type. In other words, it is a blueprint for an object of a certain kind. It holds no values.    An object is a real-world entity and an instance of a class.  c. Modules in Python  Python module is a collection of related classes and functions.    We have modules for mathematical calculations, string manipulations, web programming, and many more.  d. Packages in Python  Python package is a collection of related modules. You can either import a package or create your own.  e. List in Python  You can think of a list as a collection of values. Declared in the CSV (Comma-Separated Values) format and delimit using square brackets:  life  ;  arity  ;  Notice that we do not declare the type for the list either. A list may also contain elements of different types, and the indexing begins at 0:  person  ;  print(person)  Output: 21    You can also slice lists; slicing is a way of retrieving some values from it. We will learn more about it in further lessons.  f. Tuple in Python  A tuple is like a list, but it is immutable (you cannot change its values).  pizza  (\u2018base\u2019, \u2018sauce\u2019, \u2018cheese\u2019, \u2018mushroom\u2019);  pizza  \u2018jalapeno\u2019  This raises a TypeError.  g. Dictionary in Python  A dictionary is a collection of key-value pairs. Declare it using curly braces, and commas to separate key-value pairs.    Also, separate values from keys using a colon (:).  student  {\u2018Name\u2019: \u2018Abc\u2019, \u2018Age\u2019: 21}  print(student)  Output: 21  h. Comments and Docstrings in Python  Declare comments using an octothorpe (#). However, Python does not support multiline comments.    Docstrings are documentation strings that help explain the code.  #This is a comment  \u201c\u201c\u201c  This is a docstring  \u201d\u201d\u201d  Python has a lot of other constructs. These include control structures, functions, exceptions, etc.    Interested in learning python in detail? Just follow the sidebar and learn Python completely.  Python Interview Questions for Beginners  Below are some of the frequently asked Python Interview questions from this tutorial:     \tHow does Python get its name?   \tWhat are the Features of Python that make it so popular?   \tDefine Modules in Python?   \tWhat is the difference between List and Tuple in Python?   \tCompare Python with Java    Summary  This was all about Python Tutorial where you learnt what is python, why python is so powerful, what are the applications of Python and basic architecture and constructs of python.","keywords":"Learn Python, Python Applications, Python architecture, Python Complete Guide, Python Constructs, python for beginners, Python History, Python introduction, Python School Programming, python tutorial, What is Python, ","datePublished":"2017-12-15T07:49:15+05:30","dateModified":"2021-08-25T14:11:46+05:30","author":{"@type":"Person","name":"DataFlair Team","description":"","url":"https:\/\/data-flair.training\/blogs\/author\/dfteam1\/","sameAs":[],"image":{"@type":"ImageObject","url":"https:\/\/secure.gravatar.com\/avatar\/8e4845cd37ceee2c72c0de9ee296ba1b?s=96&d=mm&r=g","height":96,"width":96}},"editor":{"@type":"Person","name":"DataFlair Team","description":"","url":"https:\/\/data-flair.training\/blogs\/author\/dfteam1\/","sameAs":[],"image":{"@type":"ImageObject","url":"https:\/\/secure.gravatar.com\/avatar\/8e4845cd37ceee2c72c0de9ee296ba1b?s=96&d=mm&r=g","height":96,"width":96}},"publisher":{"@id":"https:\/\/data-flair.training\/blogs#Organization"},"image":[{"@type":"ImageObject","@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#primaryimage","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2017\/12\/Python-Tutorial-1-1200x900.jpg","width":"1200","height":"900"},{"@type":"ImageObject","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2017\/12\/Python-Tutorial-1-1200x720.jpg","width":"1200","height":"720"},{"@type":"ImageObject","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2017\/12\/Python-Tutorial-1-1200x675.jpg","width":"1200","height":"675"},{"@type":"ImageObject","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2017\/12\/History-of-Python-1.jpg","width":800,"height":550},{"@type":"ImageObject","url":"https:\/\/data-flair.training\/blogs\/wp-content\/uploads\/sites\/2\/2017\/12\/Python-features-1.jpg","width":900,"height":900}],"isPartOf":{"@id":"https:\/\/data-flair.training\/blogs\/python-tutorial\/#webpage"}}]}]
+</script>
+<link rel="amphtml" href="https://data-flair.training/blogs/python-tutorial/amp/"><link rel="icon" href="https://data-flair.training/blogs/wp-content/uploads/sites/2/2021/11/dataflair-favicon.webp" sizes="32x32" />
+<link rel="icon" href="https://data-flair.training/blogs/wp-content/uploads/sites/2/2021/11/dataflair-favicon.webp" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://data-flair.training/blogs/wp-content/uploads/sites/2/2021/11/dataflair-favicon.webp" />
+<meta name="msapplication-TileImage" content="https://data-flair.training/blogs/wp-content/uploads/sites/2/2021/11/dataflair-favicon.webp" />
+<style id="wfc-style-body" type="text/css" data-origin="server">
+/* Setting : Default website font */ 
+body {
+}
+
+</style> <style id="grids-css" type="text/css">
+                .post-list .grid-item {float: left; }
+                .cols-1 .grid-item { width: 100%; }
+                .cols-2 .grid-item { width: 50%; }
+                .cols-3 .grid-item { width: 33.3%; }
+                .cols-4 .grid-item { width: 25%; }
+                @media only screen and (max-width: 719px) {
+                      #grid-wrapper .grid-item{
+                        width: 100%;
+                      }
+                }
+            </style>
+<style>
+.ai-viewports                 {--ai: 1;}
+.ai-viewport-3                { display: none !important;}
+.ai-viewport-2                { display: none !important;}
+.ai-viewport-1                { display: inherit !important;}
+.ai-viewport-0                { display: none !important;}
+@media (min-width: 768px) and (max-width: 979px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-2                { display: inherit !important;}
+}
+@media (max-width: 767px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-3                { display: inherit !important;}
+}
+</style>
+
+<script type="0fc4ef21af7123d7290dc0e0-text/javascript">(function(){/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+'use strict';var g=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}},l=this||self,m=/^[\w+/_-]+[=]{0,2}$/,p=null,q=function(){},r=function(a){var b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";
+if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}else return"null";else if("function"==b&&"undefined"==typeof a.call)return"object";return b},u=function(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var v=function(a,b){Object.defineProperty(l,a,{configurable:!1,get:function(){return b},set:q})};var y=function(a,b){this.b=a===w&&b||"";this.a=x},x={},w={};var aa=function(a,b){a.src=b instanceof y&&b.constructor===y&&b.a===x?b.b:"type_error:TrustedResourceUrl";if(null===p)b:{b=l.document;if((b=b.querySelector&&b.querySelector("script[nonce]"))&&(b=b.nonce||b.getAttribute("nonce"))&&m.test(b)){p=b;break b}p=""}b=p;b&&a.setAttribute("nonce",b)};var z=function(){return Math.floor(2147483648*Math.random()).toString(36)+Math.abs(Math.floor(2147483648*Math.random())^+new Date).toString(36)};var A=function(a,b){b=String(b);"application/xhtml+xml"===a.contentType&&(b=b.toLowerCase());return a.createElement(b)},B=function(a){this.a=a||l.document||document};B.prototype.appendChild=function(a,b){a.appendChild(b)};var C=function(a,b,c,d,e,f){try{var k=a.a,h=A(a.a,"SCRIPT");h.async=!0;aa(h,b);k.head.appendChild(h);h.addEventListener("load",function(){e();d&&k.head.removeChild(h)});h.addEventListener("error",function(){0<c?C(a,b,c-1,d,e,f):(d&&k.head.removeChild(h),f())})}catch(n){f()}};var ba=l.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"),ca=l.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="),da=l.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu"),ea=function(a,b,c){this.b=a;this.f=new B(this.b);this.a=null;this.c=[];this.g=!1;this.i=b;this.h=c},F=function(a){if(a.b.body&&!a.g){var b=
+function(){D(a);l.setTimeout(function(){return E(a,3)},50)};C(a.f,a.i,2,!0,function(){l[a.h]||b()},b);a.g=!0}},D=function(a){for(var b=G(1,5),c=0;c<b;c++){var d=H(a);a.b.body.appendChild(d);a.c.push(d)}b=H(a);b.style.bottom="0";b.style.left="0";b.style.position="fixed";b.style.width=G(100,110).toString()+"%";b.style.zIndex=G(2147483544,2147483644).toString();b.style["background-color"]=I(249,259,242,252,219,229);b.style["box-shadow"]="0 0 12px #888";b.style.color=I(0,10,0,10,0,10);b.style.display=
+"flex";b.style["justify-content"]="center";b.style["font-family"]="Roboto, Arial";c=H(a);c.style.width=G(80,85).toString()+"%";c.style.maxWidth=G(750,775).toString()+"px";c.style.margin="24px";c.style.display="flex";c.style["align-items"]="flex-start";c.style["justify-content"]="center";d=A(a.f.a,"IMG");d.className=z();d.src=ba;d.style.height="24px";d.style.width="24px";d.style["padding-right"]="16px";var e=H(a),f=H(a);f.style["font-weight"]="bold";f.textContent=ca;var k=H(a);k.textContent=da;J(a,
+e,f);J(a,e,k);J(a,c,d);J(a,c,e);J(a,b,c);a.a=b;a.b.body.appendChild(a.a);b=G(1,5);for(c=0;c<b;c++)d=H(a),a.b.body.appendChild(d),a.c.push(d)},J=function(a,b,c){for(var d=G(1,5),e=0;e<d;e++){var f=H(a);b.appendChild(f)}b.appendChild(c);c=G(1,5);for(d=0;d<c;d++)e=H(a),b.appendChild(e)},G=function(a,b){return Math.floor(a+Math.random()*(b-a))},I=function(a,b,c,d,e,f){return"rgb("+G(Math.max(a,0),Math.min(b,255)).toString()+","+G(Math.max(c,0),Math.min(d,255)).toString()+","+G(Math.max(e,0),Math.min(f,
+255)).toString()+")"},H=function(a){a=A(a.f.a,"DIV");a.className=z();return a},E=function(a,b){0>=b||null!=a.a&&0!=a.a.offsetHeight&&0!=a.a.offsetWidth||(fa(a),D(a),l.setTimeout(function(){return E(a,b-1)},50))},fa=function(a){var b=a.c;var c="undefined"!=typeof Symbol&&Symbol.iterator&&b[Symbol.iterator];b=c?c.call(b):{next:g(b)};for(c=b.next();!c.done;c=b.next())(c=c.value)&&c.parentNode&&c.parentNode.removeChild(c);a.c=[];(b=a.a)&&b.parentNode&&b.parentNode.removeChild(b);a.a=null};var ia=function(a,b,c,d,e){var f=ha(c),k=function(n){n.appendChild(f);l.setTimeout(function(){f?(0!==f.offsetHeight&&0!==f.offsetWidth?b():a(),f.parentNode&&f.parentNode.removeChild(f)):a()},d)},h=function(n){document.body?k(document.body):0<n?l.setTimeout(function(){h(n-1)},e):b()};h(3)},ha=function(a){var b=document.createElement("div");b.className=a;b.style.width="1px";b.style.height="1px";b.style.position="absolute";b.style.left="-10000px";b.style.top="-10000px";b.style.zIndex="-10000";return b};var K={},L=null;var M=function(){},N="function"==typeof Uint8Array,O=function(a,b){a.b=null;b||(b=[]);a.j=void 0;a.f=-1;a.a=b;a:{if(b=a.a.length){--b;var c=a.a[b];if(!(null===c||"object"!=typeof c||Array.isArray(c)||N&&c instanceof Uint8Array)){a.g=b-a.f;a.c=c;break a}}a.g=Number.MAX_VALUE}a.i={}},P=[],Q=function(a,b){if(b<a.g){b+=a.f;var c=a.a[b];return c===P?a.a[b]=[]:c}if(a.c)return c=a.c[b],c===P?a.c[b]=[]:c},R=function(a,b,c){a.b||(a.b={});if(!a.b[c]){var d=Q(a,c);d&&(a.b[c]=new b(d))}return a.b[c]};
+M.prototype.h=N?function(){var a=Uint8Array.prototype.toJSON;Uint8Array.prototype.toJSON=function(){var b;void 0===b&&(b=0);if(!L){L={};for(var c="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),d=["+/=","+/","-_=","-_.","-_"],e=0;5>e;e++){var f=c.concat(d[e].split(""));K[e]=f;for(var k=0;k<f.length;k++){var h=f[k];void 0===L[h]&&(L[h]=k)}}}b=K[b];c=[];for(d=0;d<this.length;d+=3){var n=this[d],t=(e=d+1<this.length)?this[d+1]:0;h=(f=d+2<this.length)?this[d+2]:0;k=n>>2;n=(n&
+3)<<4|t>>4;t=(t&15)<<2|h>>6;h&=63;f||(h=64,e||(t=64));c.push(b[k],b[n],b[t]||"",b[h]||"")}return c.join("")};try{return JSON.stringify(this.a&&this.a,S)}finally{Uint8Array.prototype.toJSON=a}}:function(){return JSON.stringify(this.a&&this.a,S)};var S=function(a,b){return"number"!==typeof b||!isNaN(b)&&Infinity!==b&&-Infinity!==b?b:String(b)};M.prototype.toString=function(){return this.a.toString()};var T=function(a){O(this,a)};u(T,M);var U=function(a){O(this,a)};u(U,M);var ja=function(a,b){this.c=new B(a);var c=R(b,T,5);c=new y(w,Q(c,4)||"");this.b=new ea(a,c,Q(b,4));this.a=b},ka=function(a,b,c,d){b=new T(b?JSON.parse(b):null);b=new y(w,Q(b,4)||"");C(a.c,b,3,!1,c,function(){ia(function(){F(a.b);d(!1)},function(){d(!0)},Q(a.a,2),Q(a.a,3),Q(a.a,1))})};var la=function(a,b){V(a,"internal_api_load_with_sb",function(c,d,e){ka(b,c,d,e)});V(a,"internal_api_sb",function(){F(b.b)})},V=function(a,b,c){a=l.btoa(a+b);v(a,c)},W=function(a,b,c){for(var d=[],e=2;e<arguments.length;++e)d[e-2]=arguments[e];e=l.btoa(a+b);e=l[e];if("function"==r(e))e.apply(null,d);else throw Error("API not exported.");};var X=function(a){O(this,a)};u(X,M);var Y=function(a){this.h=window;this.a=a;this.b=Q(this.a,1);this.f=R(this.a,T,2);this.g=R(this.a,U,3);this.c=!1};Y.prototype.start=function(){ma();var a=new ja(this.h.document,this.g);la(this.b,a);na(this)};
+var ma=function(){var a=function(){if(!l.frames.googlefcPresent)if(document.body){var b=document.createElement("iframe");b.style.display="none";b.style.width="0px";b.style.height="0px";b.style.border="none";b.style.zIndex="-1000";b.style.left="-1000px";b.style.top="-1000px";b.name="googlefcPresent";document.body.appendChild(b)}else l.setTimeout(a,5)};a()},na=function(a){var b=Date.now();W(a.b,"internal_api_load_with_sb",a.f.h(),function(){var c;var d=a.b,e=l[l.btoa(d+"loader_js")];if(e){e=l.atob(e);
+e=parseInt(e,10);d=l.btoa(d+"loader_js").split(".");var f=l;d[0]in f||"undefined"==typeof f.execScript||f.execScript("var "+d[0]);for(;d.length&&(c=d.shift());)d.length?f[c]&&f[c]!==Object.prototype[c]?f=f[c]:f=f[c]={}:f[c]=null;c=Math.abs(b-e);c=1728E5>c?0:c}else c=-1;0!=c&&(W(a.b,"internal_api_sb"),Z(a,Q(a.a,6)))},function(c){Z(a,c?Q(a.a,4):Q(a.a,5))})},Z=function(a,b){a.c||(a.c=!0,a=new l.XMLHttpRequest,a.open("GET",b,!0),a.send())};(function(a,b){l[a]=function(c){for(var d=[],e=0;e<arguments.length;++e)d[e-0]=arguments[e];l[a]=q;b.apply(null,d)}})("__d3lUW8vwsKlB__",function(a){"function"==typeof window.atob&&(a=window.atob(a),a=new X(a?JSON.parse(a):null),(new Y(a)).start())});}).call(this);
+
+window.__d3lUW8vwsKlB__("WyI2YjY2YTI3ZjU0MWVjMTVlIixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2YvQUdTS1d4VkNFOWFRbk03cmpHMDJZTjFlVjBibEEzbFJuTDg0dXhDcERVS19tWlBkWjFkN2J5R0lGR2xOOVBqSmlpSnh6MEM1eGp0SlpiOThTUW8wZHB3aDdKZ1x1MDAzZCJdCixbMjAsImRpdi1ncHQtYWQiLDEwMCwiTm1JMk5tRXlOMlkxTkRGbFl6RTFaUVx1MDAzZFx1MDAzZCIsW251bGwsbnVsbCxudWxsLCJodHRwczovL3d3dy5nc3RhdGljLmNvbS8wZW1uL2YvcC82YjY2YTI3ZjU0MWVjMTVlLmpzP3VzcXBcdTAwM2RDQW8iXQpdCiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hYa1JUYUhUVmMwOW4xZDlQTmFGUmhGMUJKQUhHb3F3UVNQMHJpV3JDQ2EwS3dUR0JTN3J0M0FZVWI5ZkFKdDd3WmlEay11TDFwSjJ1QS1kaFR4P2FiXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2wvQUdTS1d4VTZjcFFJWFNKc3dVMFRpeXNQVy1ZaHFSYWlNU1o4blpoYU1EMjRYSTh4YlNMYk13ZG5WanV6b3NSNnJpNXg5MExpeGwzSE03RHVGVWpnMUZCWj9hYlx1MDAzZDJcdTAwMjZzYmZcdTAwM2QxIiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hXWUFybnFtYUloUFpJNUtZdHJCZnVLcEdxb05GSjJpdTRkM0RwbThpZlpSWTJjblByRjhHZnV3ZjJDSTBxTFdtMVhacm5haE40WGUxTkVlMlBFP3NiZlx1MDAzZDIiXQo=");</script>
+
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//cdn.adpushup.com/41212/adpushup.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="0fc4ef21af7123d7290dc0e0-text/javascript"></script>
+<script type="0fc4ef21af7123d7290dc0e0-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-9834688387117374",
+          enable_page_level_ads: true
+     });
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DK603JEBJQ" type="0fc4ef21af7123d7290dc0e0-text/javascript"></script>
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/42940/adRecover.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+</head>
+<body class="post-template-default single single-post postid-5235 single-format-standard wp-custom-logo wp-embed-responsive col-3cm full-width topbar-enabled mobile-sidebar-hide-s1 header-desktop-sticky header-mobile-sticky hueman-pro-1-4-20-with-child-theme chrome">
+<div id="wrapper">
+<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+<header id="header" class="specific-mobile-menu-on one-mobile-menu mobile_menu header-ads-desktop  topbar-transparent no-header-img">
+<nav class="nav-container group mobile-menu mobile-sticky " id="nav-mobile" data-menu-id="header-1">
+<div class="mobile-title-logo-in-header"><p class="site-title"> <a class="custom-logo-link" href="https://data-flair.training/blogs/" rel="home" title="DataFlair | Home page"><img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2021/11/dataflair-logo.webp" alt="DataFlair" width="87" height="43" /></a> </p></div>
+
+<button class="ham__navbar-toggler-two collapsed" title="Menu" aria-expanded="false">
+<span class="ham__navbar-span-wrapper">
+<span class="line line-1"></span>
+<span class="line line-2"></span>
+<span class="line line-3"></span>
+</span>
+</button>
+<div class="nav-text"></div>
+<div class="nav-wrap container">
+<ul class="nav container-inner group mobile-search">
+<li>
+<form role="search" method="get" class="search-form" action="https://data-flair.training/blogs/">
+<label>
+<span class="screen-reader-text">Search for:</span>
+<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+</label>
+<input type="submit" class="search-submit" value="Search" />
+</form> </li>
+</ul>
+<ul id="menu-mobile-nav" class="nav container-inner group"><li id="menu-item-75198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-75198"><a href="https://data-flair.training/blogs/">Blogs</a></li>
+<li id="menu-item-83574" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83574"><a href="https://data-flair.training/blogs/data-science-tutorials-home/">Data Science Tutorials</a></li>
+<li id="menu-item-83575" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83575"><a href="https://data-flair.training/blogs/python-tutorials-home/">Python Tutorials</a></li>
+<li id="menu-item-83571" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83571"><a href="https://data-flair.training/blogs/big-data-tutorials-home/">Big Data Tutorials</a></li>
+<li id="menu-item-83572" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83572"><a href="https://data-flair.training/blogs/hadoop-tutorials-home/">Hadoop Tutorials</a></li>
+<li id="menu-item-83573" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83573"><a href="https://data-flair.training/blogs/spark-tutorials-home/">Spark Tutorials</a></li>
+<li id="menu-item-83576" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83576"><a href="https://data-flair.training/blogs/r-tutorials-home/">R Tutorials</a></li>
+<li id="menu-item-83577" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83577"><a href="https://data-flair.training/blogs/machine-learning-tutorials-home/">Machine Learning Tutorials</a></li>
+</ul> </div>
+</nav>
+<nav class="nav-container group desktop-menu desktop-sticky " id="nav-topbar" data-menu-id="header-2">
+<div class="nav-text"></div>
+<div class="topbar-toggle-down">
+<i class="fas fa-angle-double-down" aria-hidden="true" data-toggle="down" title="Expand menu"></i>
+<i class="fas fa-angle-double-up" aria-hidden="true" data-toggle="up" title="Collapse menu"></i>
+</div>
+<div class="nav-wrap container">
+<ul id="menu-main-menu" class="nav container-inner group"><li id="menu-item-80076" class="dflogo menu-item menu-item-type-custom menu-item-object-custom menu-item-80076"><a href="https://data-flair.training/">        </a></li>
+<li id="menu-item-44066" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-44066"><a href="https://data-flair.training/blogs/">Blog Home</a></li>
+<li id="menu-item-27594" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-27594"><a href="#">Data Science</a>
+<ul class="sub-menu">
+<li id="menu-item-67266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67266"><a href="https://data-flair.training/blogs/data-science-tutorials-home/">Data Science Tutorials</a></li>
+<li id="menu-item-68437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68437"><a href="https://data-flair.training/blogs/machine-learning-tutorials-home/">Machine Learning Tutorials</a></li>
+<li id="menu-item-27617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-27617"><a href="#">Big Data</a>
+<ul class="sub-menu">
+<li id="menu-item-67263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67263"><a href="https://data-flair.training/blogs/big-data-tutorials-home/">Big Data Tutorials</a></li>
+<li id="menu-item-27595" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27595"><a href="https://data-flair.training/blogs/hadoop-tutorials-home/">Hadoop Ecosystem Tutorials</a></li>
+<li id="menu-item-40141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40141"><a href="https://data-flair.training/blogs/spark-tutorials-home/">Apache Spark Tutorials</a></li>
+<li id="menu-item-40143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40143"><a href="https://data-flair.training/blogs/flink-tutorials-home/">Apache Flink Tutorials</a></li>
+<li id="menu-item-40144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40144"><a href="https://data-flair.training/blogs/kafka-tutorials-home/">Apache Kafka Tutorials</a></li>
+</ul>
+</li>
+<li id="menu-item-56249" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-56249"><a href="#">Python Tutorials</a>
+<ul class="sub-menu">
+<li id="menu-item-62285" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62285"><a href="https://data-flair.training/blogs/python-tutorials-home/">Python Tutorials</a></li>
+<li id="menu-item-40111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40111"><a href="https://data-flair.training/blogs/tensorflow-tutorials-home/">TensorFlow Tutorials</a></li>
+<li id="menu-item-56250" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56250"><a href="https://data-flair.training/blogs/pandas-tutorials-home/">Pandas Tutorials</a></li>
+<li id="menu-item-56245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56245"><a href="https://data-flair.training/blogs/django-tutorials-home/">Django Tutorials</a></li>
+</ul>
+</li>
+<li id="menu-item-27620" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-27620"><a href="#">BI Tutorials</a>
+<ul class="sub-menu">
+<li id="menu-item-40121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40121"><a href="https://data-flair.training/blogs/tableau-tutorials-home/">Tableau Tutorials</a></li>
+<li id="menu-item-40123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40123"><a href="https://data-flair.training/blogs/power-bi-tutorials-home/">Power BI Tutorials</a></li>
+<li id="menu-item-40122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40122"><a href="https://data-flair.training/blogs/qlikview-tutorials-home/">QlikView Tutorials</a></li>
+<li id="menu-item-44076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44076"><a href="https://data-flair.training/blogs/qlik-sense-tutorials-home/">Qlik Sense Tutorials</a></li>
+<li id="menu-item-56246" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56246"><a href="https://data-flair.training/blogs/sap-hana-tutorials-home/">SAP HANA Tutorials</a></li>
+</ul>
+</li>
+<li id="menu-item-80078" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-80078"><a href="#">SQL &#038; NoSQL</a>
+<ul class="sub-menu">
+<li id="menu-item-40120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40120"><a href="https://data-flair.training/blogs/sql-tutorials-home/">SQL Tutorials</a></li>
+<li id="menu-item-40099" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40099"><a href="https://data-flair.training/blogs/cassandra-tutorials-home/">Cassandra Tutorials</a></li>
+<li id="menu-item-40101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40101"><a href="https://data-flair.training/blogs/mongodb-tutorials-home/">MongoDB Tutorials</a></li>
+</ul>
+</li>
+<li id="menu-item-40112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40112"><a href="https://data-flair.training/blogs/iot-tutorials-home/">IoT Tutorials</a></li>
+<li id="menu-item-67583" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-67583"><a href="https://data-flair.training/blogs/r-tutorials-home/">R Tutorials</a></li>
+<li id="menu-item-40114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40114"><a href="https://data-flair.training/blogs/sas-tutorials-home/">SAS Tutorials</a></li>
+<li id="menu-item-40118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40118"><a href="https://data-flair.training/blogs/ai-tutorials-home/">AI Tutorials</a></li>
+</ul>
+</li>
+<li id="menu-item-27582" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-27582"><a href="#">Categories</a>
+<ul class="sub-menu">
+<li id="menu-item-75349" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75349"><a href="#">Programming</a>
+<ul class="sub-menu">
+<li id="menu-item-58606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58606"><a href="https://data-flair.training/blogs/c-tutorials-home/">C Tutorials</a></li>
+<li id="menu-item-40107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40107"><a href="https://data-flair.training/blogs/scala-tutorials-home/">Scala Tutorials</a></li>
+<li id="menu-item-40108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40108"><a href="https://data-flair.training/blogs/java-tutorials-home/">Java Tutorials</a></li>
+<li id="menu-item-40109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40109"><a href="https://data-flair.training/blogs/spring-tutorials-home/">Spring Tutorials</a></li>
+</ul>
+</li>
+<li id="menu-item-80077" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-80077"><a href="#">Cloud</a>
+<ul class="sub-menu">
+<li id="menu-item-45536" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45536"><a href="https://data-flair.training/blogs/cloud-computing-tutorials-home/">Cloud Computing Tutorials</a></li>
+<li id="menu-item-40103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40103"><a href="https://data-flair.training/blogs/aws-tutorials-home/">AWS Tutorials</a></li>
+</ul>
+</li>
+<li id="menu-item-77342" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77342"><a href="https://data-flair.training/blogs/android-tutorials-home/">Android Tutorials</a></li>
+<li id="menu-item-40102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40102"><a href="https://data-flair.training/blogs/blockchain-tutorials-home/">Blockchain Tutorials</a></li>
+<li id="menu-item-27578" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27578"><a href="https://data-flair.training/blogs/category/linux/">Linux Tutorials</a></li>
+<li id="menu-item-66879" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66879"><a href="https://data-flair.training/blogs/javascript-tutorials-home/">JavaScript Tutorials</a></li>
+<li id="menu-item-83570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83570"><a href="https://data-flair.training/blogs/angularjs-tutorials-home/">AngularJS Tutorials</a></li>
+</ul>
+</li>
+<li id="menu-item-27572" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-27572"><a href="#">Courses</a>
+<ul class="sub-menu">
+<li id="menu-item-27610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27610"><a href="https://data-flair.training/hadoop-spark-developer-course/">Big Data Hadoop &#038; Spark Scala</a></li>
+<li id="menu-item-66601" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66601"><a href="https://data-flair.training/python-course/">Python Course</a></li>
+<li id="menu-item-27611" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27611"><a href="https://data-flair.training/big-data-hadoop/">Big Data &#038; Hadoop</a></li>
+<li id="menu-item-69115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69115"><a href="https://data-flair.training/apache-kafka/">Apache Kafka</a></li>
+<li id="menu-item-27612" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27612"><a href="https://data-flair.training/apache-spark-scala/">Apache Spark &#038; Scala</a></li>
+</ul>
+</li>
+</ul> </div>
+<div id="topbar-header-search" class="container">
+<div class="container-inner">
+<button class="toggle-search"><i class="fas fa-search"></i></button>
+<div class="search-expand">
+<div class="search-expand-inner"><form role="search" method="get" class="search-form" action="https://data-flair.training/blogs/">
+<label>
+<span class="screen-reader-text">Search for:</span>
+<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+</label>
+<input type="submit" class="search-submit" value="Search" />
+</form></div>
+</div>
+</div>
+</div>
+</nav>
+<div class="container group">
+<div class="container-inner">
+<div class="group hu-pad central-header-zone">
+<div class="logo-tagline-group">
+<p class="site-title"> <a class="custom-logo-link" href="https://data-flair.training/blogs/" rel="home" title="DataFlair | Home page"><img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2021/11/dataflair-logo.webp" alt="DataFlair" width="87" height="43" /></a> </p> </div>
+</div>
+</div>
+</div>
+</header>
+<div class="container" id="page">
+<div class="container-inner">
+<div class="main">
+<div class="main-inner group">
+<main class="content" id="content">
+<div class="page-title hu-pad group">
+<ul class="meta-single group">
+<li class="category"><a href="https://data-flair.training/blogs/category/python/" rel="category tag">Python Tutorials</a></li>
+<li class="comments"><a href="https://data-flair.training/blogs/python-tutorial/#comments"><i class="far fa-comments"></i>79</a></li>
+</ul>
+</div>
+<div class="hu-pad group">
+<div class='code-block code-block-4 ai-viewport-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<div style="min-height: 90px; max-height: 90px;">
+<div id="7a200326-b667-4433-aa15-5ce8f39fabb7" class="_ap_apex_ad">
+</div>
+</div></div>
+<div class='code-block code-block-5 ai-viewport-2 ai-viewport-3' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<div style="min-height: 100px; max-height: 100px;">
+<div id="af885ff5-571c-4b04-958f-1fb8d62463b7" class="_ap_apex_ad">
+</div>
+</div></div>
+<article class="post-5235 post type-post status-publish format-standard has-post-thumbnail hentry category-python tag-learn-python tag-python-applications tag-python-architecture tag-python-complete-guide tag-python-constructs tag-python-for-beginners tag-python-history tag-python-introduction tag-python-school-programming tag-python-tutorial tag-what-is-python">
+<div class="post-inner group">
+<h1 class="post-title entry-title">Python Tutorial for Beginners – Learn Python Programming</h1>
+<div class="clear"></div>
+<div class="entry themeform">
+<div class="entry-inner">
+<p>Welcome to the <strong>World of Python</strong>. Are you eager to know and learn Python &#8211; The Most Powerful and Popular Programming Langauge? Then start with this Python Tutorial now.</p>
+<p><span style="font-weight: 400;">Here is a quick overview of what you are going to learn today in this Python Introduction- </span></p>
+<ul>
+<li><span style="font-weight: 400;">Python Introduction</span></li>
+<li><span style="font-weight: 400;">Python History </span></li>
+<li><span style="font-weight: 400;">Features of Python</span></li>
+<li><span style="font-weight: 400;">Applications of Python</span></li>
+<li><span style="font-weight: 400;">Architecture and Working of Python</span></li>
+<li><span style="font-weight: 400;">Python Constructs</span></li>
+</ul>
+<p><strong>Do not forget to check frequently asked interview questions from this topic at the end.</strong></p>
+<h2>What is Python?</h2>
+<p><strong>Python </strong>is a General Purpose object-oriented programming language, which means that it can model real-world entities. It is also dynamically-typed because it carries out type-checking at runtime.</p>
+<p>It does so to make sure that the type of construct matches what we expect it to be.</p>
+<p>The distinctive feature of Python is that it is an <strong>interpreted language</strong>.</p>
+<p>The Python <strong>IDLE</strong> (Integrated Development Environment) executes instructions one line at a time. This also lets us use it as a calculator.</p>
+<h3>Why is it called Python?</h3>
+<p>Guido van Rossum named it after the comedy group Monty Python. That is why the <em>metasyntactic variables (those we will often use to explain code syntax)</em> used here are ‘spam’ and ‘eggs’ instead of ‘foo’ and ‘bar’.</p>
+<h3>History of Python</h3>
+<p><a href="https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/History-of-Python-1.jpg"><img loading="lazy" class="aligncenter size-full wp-image-84759" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/History-of-Python-1.jpg" alt="History of Python" width="800" height="550" data-srcset="https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/History-of-Python-1.jpg 800w, https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/History-of-Python-1-300x206.jpg 300w, https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/History-of-Python-1-150x103.jpg 150w, https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/History-of-Python-1-768x528.jpg 768w, https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/History-of-Python-1-720x495.jpg 720w, https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/History-of-Python-1-520x358.jpg 520w, https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/History-of-Python-1-320x220.jpg 320w" data-sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p>&nbsp;</p>
+<ul>
+<li><em>Python </em>was conceived in the late <strong>1980s</strong> and was named after the <em>BBC TV show Monty Python&#8217;s Flying Circus</em>.</li>
+<li>Guido van Rossum started implementing <strong>Python at CWI in the Netherlands in December of 1989. </strong></li>
+<li>This was a successor to the ABC programming language which was capable of<strong> exception handling and interfacing</strong> with the Amoeba operating system.</li>
+<li>On <strong>October 16 of 2000, Python 2.0 released</strong> with many new features.</li>
+<li>Then <strong>Python 3.0 released on December 3, 2008</strong>.</li>
+</ul>
+<h3>Why Learn Python?</h3>
+<blockquote><p><strong>Python is the &#8220;most powerful language you can still read&#8221;, Says Paul Dubois</strong></p></blockquote>
+<p>Python is one of the richest Programming languages.</p>
+<p><strong>Going by the TIOBE Index</strong>, it is the <strong>Second Most Popular Programming Language</strong> in the world.</p>
+<p>This makes a <strong>career in Python</strong> a great choice.</p>
+<h3>Python Features</h3>
+<p>Let us now see various features of Python that make it so powerful and popular:</p>
+<p><a href="https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/Python-features-1.jpg"><img loading="lazy" class="aligncenter size-full wp-image-84758" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/Python-features-1.jpg" alt="Python features" width="900" height="900" data-srcset="https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/Python-features-1.jpg 900w, https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/Python-features-1-300x300.jpg 300w, https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/Python-features-1-150x150.jpg 150w, https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/Python-features-1-768x768.jpg 768w, https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/Python-features-1-80x80.jpg 80w, https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/Python-features-1-320x320.jpg 320w, https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/Python-features-1-720x720.jpg 720w, https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/12/Python-features-1-520x520.jpg 520w" data-sizes="(max-width: 900px) 100vw, 900px" /></a></p>
+<p>&nbsp;</p>
+<p><strong style="font-family: Verdana, Geneva, sans-serif;">a. Easy</strong></p>
+<p>Python is very easy to learn and understand; any beginner can learn Python easily. When writing code in Python, you need fewer lines of code compared to languages like Java.</p>
+<p><strong style="font-family: Verdana, Geneva, sans-serif;">b. Interpreted</strong></p>
+<p>It is interpreted(executed) line by line. This makes it easy to test and debug.</p>
+<p><strong style="font-family: Verdana, Geneva, sans-serif;">c. Object-Oriented</strong></p>
+<p>The Python programming language supports classes and objects and hence it is object-oriented.</p>
+<p><strong style="font-family: Verdana, Geneva, sans-serif;">d. Free and Open Source</strong></p>
+<p>The language and its source code are available to the public for free; there is no need to buy a costly license.</p>
+<p><strong style="font-family: Verdana, Geneva, sans-serif;">e. Portable</strong></p>
+<p>Since Python is open-source, you can run it on Windows, Mac, Linux or any other platform. Your programs will work without any need to change it for every machine.</p>
+<p><strong style="font-family: Verdana, Geneva, sans-serif;">f. GUI Programming</strong></p>
+<p>You can use it to develop a GUI (Graphical User Interface). One way to do this is through <strong>Tkinter</strong>.</p>
+<p><strong style="font-family: Verdana, Geneva, sans-serif;">g. Large Python Library</strong></p>
+<p>Python provides you with a large standard library.</p>
+<p>You can use it to implement a variety of functions without the need to reinvent the wheel every time. Just pick the code you need and continue.</p>
+<p>In this Python tutorial, we have provided a short description. You must read them in detail at <em><a href="https://data-flair.training/blogs/python-future/"> Python Programming Features</a></em></p>
+<h3>Applications of Python</h3>
+<p>Python is easy to pick-up even if you come from a non-programming background. You can look at the code and tell what’s going on.</p>
+<p><strong>Talking of Python applications</strong>, some of the cool things that you can do are &#8211;</p>
+<ul>
+<li>Build a website using Python</li>
+<li>Develop a game in Python</li>
+<li>Perform Computer Vision (Facilities like face-detection and color-detection)</li>
+<li>Implement Machine Learning (Give a computer the ability to learn)</li>
+<li>Enable Robotics with Python</li>
+<li>Perform Web Scraping (Harvest data from websites)</li>
+<li>Perform Data Analysis using Python</li>
+<li>Automate a web browser</li>
+<li>Perform Scripting in Python</li>
+<li>Perform Scientific Computing using Python</li>
+<li>Build Artificial Intelligence</li>
+</ul>
+<p>Python isn’t limited to these applications. If you’ve ever used services from brands like YouTube, Dropbox, and Netflix, then you’ve been a consumer of Python.</p>
+<p>The search-engine <strong>Google</strong> also made great use of this language in its initial stages.</p>
+<h3>Python Architecture and Working</h3>
+<p>Let&#8217;s now talk about Python architecture and its usual flow &#8211;</p>
+<p><strong style="font-family: Verdana, Geneva, sans-serif;">a. Parser</strong></p>
+<p>It uses the source code to generate an abstract syntax tree.</p>
+<p><strong style="font-family: Verdana, Geneva, sans-serif;">b. Compiler</strong></p>
+<p>It turns the abstract syntax tree into Python bytecode.</p>
+<p><strong style="font-family: Verdana, Geneva, sans-serif;">c. Interpreter</strong></p>
+<p>It executes the code line by line in a REPL (R<i>ead-Evaluate-Print-Loop) fashion.</i></p>
+<h3>Python Constructs</h3>
+<h4>a. Functions in Python</h4>
+<p>A <strong>function in Python</strong> is a collection of statements grouped under a name. You can use it whenever you want to execute all those statements at a time.</p>
+<p>You can call it wherever you want and as many times as you want in a program. A function may return a value.</p>
+<h4>b. Classes in Python</h4>
+<p>As we discussed earlier, Python is an object-oriented language. It supports classes and objects.</p>
+<p>A class is an abstract data type. In other words, it is a blueprint for an object of a certain kind. It holds no values.</p>
+<p>An object is a real-world entity and an instance of a class.</p>
+<h4>c. Modules in Python</h4>
+<p>Python module is a collection of related classes and functions.</p>
+<p>We have modules for mathematical calculations, string manipulations, web programming, and many more.</p>
+<h4>d. Packages in Python</h4>
+<p><strong>Python package</strong> is a collection of related modules. You can either import a package or create your own.</p>
+<h4>e. List in Python</h4>
+<p>You can think of a<strong> list</strong> as a collection of values. Declared in the CSV (Comma-Separated Values) format and delimit using square brackets:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">life = [‘love’, ‘wisdom’, ‘anxiety’];
+arity = [1,2,3];</pre>
+<p>Notice that we do not declare the type for the list either. A list may also contain elements of different types, and the indexing begins at 0:</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">person = [‘firstname’, 21];
+print(person[1])</pre>
+<p><strong>Output: 21</strong></p>
+<p>You can also slice lists; slicing is a way of retrieving some values from it. We will learn more about it in further lessons.</p>
+<h4>f. Tuple in Python</h4>
+<p>A <strong>tuple </strong>is like a list, but it is immutable (you cannot change its values).</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">pizza = (‘base’, ‘sauce’, ‘cheese’, ‘mushroom’);
+pizza[3] = ‘jalapeno’</pre>
+<p>This raises a TypeError.</p>
+<h4>g. Dictionary in Python</h4>
+<p>A <strong>dictionary</strong> is a collection of key-value pairs. Declare it using curly braces, and commas to separate key-value pairs.</p>
+<p>Also, separate values from keys using a colon (:).</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">student = {‘Name’: ‘Abc’, ‘Age’: 21}
+print(student[‘Age’])</pre>
+<p><strong>Output: 21</strong></p>
+<h4>h. Comments and Docstrings in Python</h4>
+<p>Declare comments using an octothorpe (#). However, Python does not support multiline comments.</p>
+<p>Docstrings are documentation strings that help explain the code.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic">#This is a comment
+“““
+This is a docstring
+”””</pre>
+<p>Python has a lot of other constructs. These include control structures, functions, exceptions, etc.</p>
+<p><strong>Interested in learning python in detail? Just follow the sidebar and learn Python completely.</strong></p>
+<h3>Python Interview Questions for Beginners</h3>
+<p>Below are some of the frequently asked Python Interview questions from this tutorial:</p>
+<ol>
+<li>How does Python get its name?</li>
+<li>What are the Features of Python that make it so popular?</li>
+<li>Define Modules in Python?</li>
+<li>What is the difference between List and Tuple in Python?</li>
+<li>Compare Python with Java</li>
+</ol>
+<h3>Summary</h3>
+<p>This was all about Python Tutorial where you learnt what is python, why python is so powerful, what are the applications of Python and basic architecture and constructs of python.</p>
+<div class='code-block code-block-9' style='margin: 8px 0; clear: both;'>
+<p>
+<strong>Did we exceed your expectations?</strong><br>
+If Yes, share your valuable feedback on <strong><a href="https://g.page/DataFlair/review?kd" target="_blank">Google</a> | <a href="https://www.facebook.com/DataFlairWS/reviews/" target="_blank">Facebook</a></strong>
+</p></div>
+
+<nav class="pagination group">
+</nav>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</article>
+<div class="clear"></div>
+<p class="post-tags"><span>Tags:</span> <a href="https://data-flair.training/blogs/tag/learn-python/" rel="tag">Learn Python</a><a href="https://data-flair.training/blogs/tag/python-applications/" rel="tag">Python Applications</a><a href="https://data-flair.training/blogs/tag/python-architecture/" rel="tag">Python architecture</a><a href="https://data-flair.training/blogs/tag/python-complete-guide/" rel="tag">Python Complete Guide</a><a href="https://data-flair.training/blogs/tag/python-constructs/" rel="tag">Python Constructs</a><a href="https://data-flair.training/blogs/tag/python-for-beginners/" rel="tag">python for beginners</a><a href="https://data-flair.training/blogs/tag/python-history/" rel="tag">Python History</a><a href="https://data-flair.training/blogs/tag/python-introduction/" rel="tag">Python introduction</a><a href="https://data-flair.training/blogs/tag/python-school-programming/" rel="tag">Python School Programming</a><a href="https://data-flair.training/blogs/tag/python-tutorial/" rel="tag">python tutorial</a><a href="https://data-flair.training/blogs/tag/what-is-python/" rel="tag">What is Python</a></p>
+<section id="comments" class="themeform">
+<h3 class="heading">79 Responses</h3>
+<ul class="comment-tabs group">
+<li class="active"><a href="#commentlist-container"><i class="far fa-comments"></i>Comments<span>25</span></a></li>
+<li><a href="#pinglist-container"><i class="fas fa-share"></i>Pingbacks<span>0</span></a></li>
+</ul>
+<div id="commentlist-container" class="comment-tab">
+<ol class="commentlist">
+<li class="comment even thread-even depth-1 parent" id="comment-53320">
+<div id="div-comment-53320" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">parul rajput</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-53320">November 21, 2019 at 1:18 pm</a> </div>
+<p>thanks for your efforts.<br />
+i am learing python last 3months,at this time i am able to write code in python.<br />
+after learning this language,i feel good.<br />
+i study all the topics in detail and if i found anything related to python,i read it.<br />
+after reading data on many websites related to Python,i found that your efforts are best than any other website.<br />
+i am thankful for read this.<br />
+thanku team of dataflair,because of you i learn so many concepts.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-53320' data-commentid="53320" data-postid="5235" data-belowelement="div-comment-53320" data-respondelement="respond" data-replyto="Reply to parul rajput" aria-label='Reply to parul rajput'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-dfteam6 odd alt depth-2" id="comment-57011">
+<div id="div-comment-57011" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">DataFlair Team</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-57011">December 7, 2020 at 8:22 pm</a> </div>
+<p>Thanks Parul for sharing your wonderful experience with us. We are glad that we could help you in learning Python. Do some Python Proejcts as well to gain hands-on knowledge. Refer <a href="https://data-flair.training/blogs/python-project-ideas/" rel="nofollow ugc">https://data-flair.training/blogs/python-project-ideas/</a></p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-57011' data-commentid="57011" data-postid="5235" data-belowelement="div-comment-57011" data-respondelement="respond" data-replyto="Reply to DataFlair Team" aria-label='Reply to DataFlair Team'>Reply</a></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-53539">
+<div id="div-comment-53539" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">BrianB</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-53539">December 12, 2019 at 2:48 pm</a> </div>
+<p>Thanks Team Data Flair, I&#8217;m keen in Python and your style of tutoring is easy, comprehensive and detailed. </p>
+<p>Is there any consolidated version of this tutorial that I easily use off line?</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-53539' data-commentid="53539" data-postid="5235" data-belowelement="div-comment-53539" data-respondelement="respond" data-replyto="Reply to BrianB" aria-label='Reply to BrianB'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-dfteam6 odd alt depth-2" id="comment-57021">
+<div id="div-comment-57021" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">DataFlair Team</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-57021">December 8, 2020 at 11:21 am</a> </div>
+<p>As we keep updating our tutorials, we do not provide offline material. But for further learning, will suggest you to take our free Python Course where you will find videos explaining the concepts, PPTS for the same, Practicals and Projects. You just need to enroll at <a href="https://data-flair.training/python-course/" rel="nofollow ugc">https://data-flair.training/python-course/</a></p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-57021' data-commentid="57021" data-postid="5235" data-belowelement="div-comment-57021" data-respondelement="respond" data-replyto="Reply to DataFlair Team" aria-label='Reply to DataFlair Team'>Reply</a></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="comment even thread-even depth-1 parent" id="comment-53903">
+<div id="div-comment-53903" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">Tirumalkumar</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-53903">January 9, 2020 at 11:00 am</a> </div>
+<p>very very thanks to you for the information keep writing &#8230;</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-53903' data-commentid="53903" data-postid="5235" data-belowelement="div-comment-53903" data-respondelement="respond" data-replyto="Reply to Tirumalkumar" aria-label='Reply to Tirumalkumar'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-dfteam4 odd alt depth-2" id="comment-53911">
+<div id="div-comment-53911" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">DataFlair Team</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-53911">January 9, 2020 at 5:54 pm</a> </div>
+<p>Hey Tirumalkumar,</p>
+<p>We are happy to help you. It would be great if you rate us on Google.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-53911' data-commentid="53911" data-postid="5235" data-belowelement="div-comment-53911" data-respondelement="respond" data-replyto="Reply to DataFlair Team" aria-label='Reply to DataFlair Team'>Reply</a></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="comment even thread-odd thread-alt depth-1" id="comment-54284">
+<div id="div-comment-54284" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">Alphonse Aka</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-54284">February 11, 2020 at 11:25 pm</a> </div>
+<p>salut à l’équipe de DATA FLAIR , je me nomme Alphonse , je suis un développeur web en python et d&#8217;autres langages , j&#8217;aime le langage python depuis 1 an , je suis un amoureux de ce langage qui m&#8217;a permis de réaliser des applications web avec son Framework Django et je continue toujours à apprendre le python , c&#8217;est meilleur et très bon pour nous les mathématiciens et les physiciens car je suis aussi un formateur en maths et en physique chimie , je m&#8217;apprête à faire mon portfolio avec python et django , merci beaucoup pour vos cours , ils sont excellents et meilleurs , que le bon DIEU vous bénisse et vous donne tout ce que votre cœur désire et que Python continue d&#8217;avancer et mon objectif qui soit le meilleur des langages dans le monde entier , merci et bonne soirée à l’équipe data Flair.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-54284' data-commentid="54284" data-postid="5235" data-belowelement="div-comment-54284" data-respondelement="respond" data-replyto="Reply to Alphonse Aka" aria-label='Reply to Alphonse Aka'>Reply</a></div>
+</div>
+</li>
+<li class="comment odd alt thread-even depth-1 parent" id="comment-54731">
+<div id="div-comment-54731" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">Beerendar</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-54731">March 16, 2020 at 3:14 pm</a> </div>
+<p>I want to become a python developer, to code in backend server of every application (web, mobile etc). </p>
+<p>Please guide me with how do i begin?</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-54731' data-commentid="54731" data-postid="5235" data-belowelement="div-comment-54731" data-respondelement="respond" data-replyto="Reply to Beerendar" aria-label='Reply to Beerendar'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-dfteam6 even depth-2" id="comment-57022">
+<div id="div-comment-57022" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">DataFlair Team</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-57022">December 8, 2020 at 11:22 am</a> </div>
+<p>Will suggest you to take our free Python Course where you will find videos explaining the concepts, PPTS for the same, Practicals and Projects. Just search DataFlair Python course on Google and enroll there using coupon code &#8220;DATAFLAIR_PYTHON&#8221;. You will get lifetime access to the course.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-57022' data-commentid="57022" data-postid="5235" data-belowelement="div-comment-57022" data-respondelement="respond" data-replyto="Reply to DataFlair Team" aria-label='Reply to DataFlair Team'>Reply</a></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-54919">
+<div id="div-comment-54919" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">BLESSING</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-54919">April 3, 2020 at 7:32 pm</a> </div>
+<p>I&#8217;m a regulatory Affairs expert (in a pharmaceutical industry ) do I need to learn python and what&#8217;s the benefit in my field of work</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-54919' data-commentid="54919" data-postid="5235" data-belowelement="div-comment-54919" data-respondelement="respond" data-replyto="Reply to BLESSING" aria-label='Reply to BLESSING'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-dfteam6 even depth-2" id="comment-57023">
+<div id="div-comment-57023" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">DataFlair Team</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-57023">December 8, 2020 at 11:26 am</a> </div>
+<p>Learning Python depends on the requirement. If you are in programming field, then you should learn Python. If you need it for analytics, R will be more suitable. You can learn it through <a href="https://data-flair.training/blogs/r-tutorials-home/" rel="nofollow ugc">https://data-flair.training/blogs/r-tutorials-home/</a></p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-57023' data-commentid="57023" data-postid="5235" data-belowelement="div-comment-57023" data-respondelement="respond" data-replyto="Reply to DataFlair Team" aria-label='Reply to DataFlair Team'>Reply</a></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="comment odd alt thread-even depth-1 parent" id="comment-55002">
+<div id="div-comment-55002" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">Adesina Adegbemile</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-55002">April 12, 2020 at 3:01 pm</a> </div>
+<p>Your selflessness is inspiring. Doing all these for free. I’m so proud of your humanity. I have been trying to have a head start in Python with no results until I stumbled on this great Tutorial. Thank you.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-55002' data-commentid="55002" data-postid="5235" data-belowelement="div-comment-55002" data-respondelement="respond" data-replyto="Reply to Adesina Adegbemile" aria-label='Reply to Adesina Adegbemile'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-dfteam6 even depth-2" id="comment-57024">
+<div id="div-comment-57024" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">DataFlair Team</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-57024">December 8, 2020 at 11:28 am</a> </div>
+<p>Thanks for your kind words. These mean a lot to us. Will continue to provide free resources for more technologies and non-tech stuff as well.</p>
+<p>Regarding Python, you can easily learn it through our free Python course which is a blend of theory, practicals and projects. Just search DataFlair Python course on Google and enroll freely for the course.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-57024' data-commentid="57024" data-postid="5235" data-belowelement="div-comment-57024" data-respondelement="respond" data-replyto="Reply to DataFlair Team" aria-label='Reply to DataFlair Team'>Reply</a></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-55473">
+<div id="div-comment-55473" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">sebastian</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-55473">June 2, 2020 at 11:18 pm</a> </div>
+<p>A really beginner friendly tutorial and the way information is provided feels almost something exclusive and paid. A great job by data flair team on such a good tutorial for beginners like me.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-55473' data-commentid="55473" data-postid="5235" data-belowelement="div-comment-55473" data-respondelement="respond" data-replyto="Reply to sebastian" aria-label='Reply to sebastian'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-dfteam6 even depth-2" id="comment-57025">
+<div id="div-comment-57025" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">DataFlair Team</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-57025">December 8, 2020 at 11:29 am</a> </div>
+<p>Happy to hear that you like our tutorials. Keep following the Python Sidebar to learn python completely.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-57025' data-commentid="57025" data-postid="5235" data-belowelement="div-comment-57025" data-respondelement="respond" data-replyto="Reply to DataFlair Team" aria-label='Reply to DataFlair Team'>Reply</a></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="comment odd alt thread-even depth-1 parent" id="comment-55672">
+<div id="div-comment-55672" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">Shiva</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-55672">June 26, 2020 at 3:33 pm</a> </div>
+<p>hi, </p>
+<p>i am beginner in learning python. i joined in a startup where i want to learn all myself and to develop the applications. please help me out how to Move to beginner level to advance level.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-55672' data-commentid="55672" data-postid="5235" data-belowelement="div-comment-55672" data-respondelement="respond" data-replyto="Reply to Shiva" aria-label='Reply to Shiva'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-dfteam6 even depth-2" id="comment-57026">
+<div id="div-comment-57026" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">DataFlair Team</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-57026">December 8, 2020 at 11:30 am</a> </div>
+<p>Python is a very easy language to learn. You can easily learn it through our free Python course which is a blend of theory, practicals and projects. Just search DataFlair Python course on Google and enroll freely for the course.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-57026' data-commentid="57026" data-postid="5235" data-belowelement="div-comment-57026" data-respondelement="respond" data-replyto="Reply to DataFlair Team" aria-label='Reply to DataFlair Team'>Reply</a></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-56147">
+<div id="div-comment-56147" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">Rose</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-56147">August 28, 2020 at 10:31 pm</a> </div>
+<p>Hello. I want to learn python to do a project in artificial intelligence involving ANN and computer vision. How can I proceed. Thank you for your consideration</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-56147' data-commentid="56147" data-postid="5235" data-belowelement="div-comment-56147" data-respondelement="respond" data-replyto="Reply to Rose" aria-label='Reply to Rose'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-dfteam6 even depth-2" id="comment-57029">
+<div id="div-comment-57029" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">DataFlair Team</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-57029">December 8, 2020 at 11:36 am</a> </div>
+<p>Just refer side bar where you will find all tutorials related to Python in AI and ANN. These will help you in your project. You will also find multiple projects at <a href="https://data-flair.training/blogs/python-project-ideas/" rel="nofollow ugc">https://data-flair.training/blogs/python-project-ideas/</a>. These will help you further.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-57029' data-commentid="57029" data-postid="5235" data-belowelement="div-comment-57029" data-respondelement="respond" data-replyto="Reply to DataFlair Team" aria-label='Reply to DataFlair Team'>Reply</a></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="comment odd alt thread-even depth-1 parent" id="comment-56718">
+<div id="div-comment-56718" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">Bhagyashree Kumbhale</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-56718">October 31, 2020 at 12:46 pm</a> </div>
+<p>I want to learn python for data science</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-56718' data-commentid="56718" data-postid="5235" data-belowelement="div-comment-56718" data-respondelement="respond" data-replyto="Reply to Bhagyashree Kumbhale" aria-label='Reply to Bhagyashree Kumbhale'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-dfteam6 even depth-2" id="comment-57028">
+<div id="div-comment-57028" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">DataFlair Team</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-57028">December 8, 2020 at 11:34 am</a> </div>
+<p>On DataFlair Python Tutorial Page, you will get the list of all tutorials for learning Python for Data sciences. Just check <a href="https://data-flair.training/blogs/python-for-data-science/" rel="nofollow ugc">https://data-flair.training/blogs/python-for-data-science/</a> and keep learning more through side bar.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-57028' data-commentid="57028" data-postid="5235" data-belowelement="div-comment-57028" data-respondelement="respond" data-replyto="Reply to DataFlair Team" aria-label='Reply to DataFlair Team'>Reply</a></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="comment byuser comment-author-felix-chukwudi odd alt thread-odd thread-alt depth-1 parent" id="comment-56864">
+<div id="div-comment-56864" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">princewill felix</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-56864">November 18, 2020 at 6:43 pm</a> </div>
+<p>any video please</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-56864' data-commentid="56864" data-postid="5235" data-belowelement="div-comment-56864" data-respondelement="respond" data-replyto="Reply to princewill felix" aria-label='Reply to princewill felix'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-dfteam6 even depth-2" id="comment-57027">
+<div id="div-comment-57027" class="comment-body">
+<div class="comment-author vcard">
+ <cite class="fn">DataFlair Team</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-57027">December 8, 2020 at 11:33 am</a> </div>
+<p>You will get free videos to learn complete Python Programming Language through our Python Course. Check the link <a href="https://data-flair.training/python-course/" rel="nofollow ugc">https://data-flair.training/python-course/</a> and enroll for free course.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-57027' data-commentid="57027" data-postid="5235" data-belowelement="div-comment-57027" data-respondelement="respond" data-replyto="Reply to DataFlair Team" aria-label='Reply to DataFlair Team'>Reply</a></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="comment odd alt thread-even depth-1" id="comment-57380">
+<div id="div-comment-57380" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">Jon Biddell</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-57380">January 13, 2021 at 10:35 am</a> </div>
+<p>I&#8217;ve just started learning Python (will me mainly on Linux, until I get the basics down and then on the work Windows laptop), and I have to say this is one of the easiest to read and follow tutorialsd I have ever used &#8211; and at 62, that is one hell of a lot.</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-57380' data-commentid="57380" data-postid="5235" data-belowelement="div-comment-57380" data-respondelement="respond" data-replyto="Reply to Jon Biddell" aria-label='Reply to Jon Biddell'>Reply</a></div>
+</div>
+</li>
+<li class="comment byuser comment-author-anupwankhade even thread-odd thread-alt depth-1" id="comment-59648">
+<div id="div-comment-59648" class="comment-body">
+<div class="comment-author vcard">
+<cite class="fn">Anup Wankhade</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata">
+<a href="https://data-flair.training/blogs/python-tutorial/comment-page-2/#comment-59648">July 14, 2021 at 1:46 am</a> </div>
+<p>its my first lecture/tutorial . its quite informative&#8230; your work is so much appriciable&#8230; thank you to whole team for your efforts&#8230;</p>
+<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-59648' data-commentid="59648" data-postid="5235" data-belowelement="div-comment-59648" data-respondelement="respond" data-replyto="Reply to Anup Wankhade" aria-label='Reply to Anup Wankhade'>Reply</a></div>
+</div>
+</li>
+</ol>
+<nav class="comments-nav group">
+<div class="nav-previous"><a href="https://data-flair.training/blogs/python-tutorial/comment-page-1/#comments">&laquo; Older Comments</a></div>
+<div class="nav-next"></div>
+</nav>
+</div>
+<div id="respond" class="comment-respond">
+<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/blogs/python-tutorial/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://data-flair.training/blogs/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200" /></p>
+<div class="gglcptch gglcptch_v3"><div class="google-captcha-notice">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.</div><input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" /></div><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='5235' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="945692a907" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js" name="ak_js" value="198" /></p></form> </div>
+</section> </div>
+</main>
+<div class="sidebar s1 collapsed" data-position="left" data-layout="col-3cm" data-sb-id="s1">
+<button class="sidebar-toggle" title="Expand Sidebar"><i class="fas sidebar-toggle-arrows"></i></button>
+<div class="sidebar-content">
+<div id="pagesinwidgets_page_section-71" class="widget pagesinwidgets_page_section"> <div class="homepage_section">
+<div class="df-accordion-panel">
+<div class="df-accordion-label df-acc-python"><span class="dfacc-label-title">Python Tutorials</span></div>
+<div class="df-accordion-panel-content">
+<ul class="dfacc-lsbul">
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-tutorial/">Python – Introduction</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/features-of-python/">Python – Features</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/advantages-and-disadvantages-of-python/">Python – Pros and Cons</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/learn-python-notes/">Python – Master Guide</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-best-practices/">Python – Best Practices</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/why-learn-python/">Python – Reasons to Learn</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-tools/">Python – Tools</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/whats-new-in-python/">Python 3.8 Features</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/install-python-windows/">Python – Install on Windows</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/advantages-of-python-over-java/">Python – Advantages over Java</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-syntax-semantics/">Python – Syntax</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-comment/">Python – Comments, Indentations and Statements</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-random-number/">Python – Random Number</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-variables-and-data-types/">Python – Variables and Data Types</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-variable-scope/">Python – Variable Scope</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/identifiers-in-python/">Python – Identifiers</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-number-types-conversion/">Python – Number Types</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-string/">Python – Strings</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-interpreter/">Python – Interpreter</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-operator/">Python – Operators</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-bitwise-operators/">Python – Bitwise Operators</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-comparison-operators/">Python – Comparison Operators</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-operator-overloading/">Python – Operator Overloading</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-ternary-operator/">Python – Ternary Operator</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-operator-precedence/">Python – Operator Precedence</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-namespace-and-variable-scope/">Python – Namespaces</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-decision-making-expressions/">Python – Decision Making</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-switch-case/">Python – Implement Switch Case</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-data-structures-tutorial/">Python – Data Structures</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-list-examples/">Python – Lists</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-tuple/">Python – Tuples</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-set-and-booleans-with-examples/">Python – Sets &amp; Booleans</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-list-comprehension/">Python – List Comprehension</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-loop/">Python – Loops in Python</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-function/">Python – Functions</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-function-arguments/">Python – Function Arguments</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-built-in-functions/">Python – Built-in Functions</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-range-function/">Python – Range() Function</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-zip-function/">Python – Zip Function</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-eval-function/">Python – Eval Function</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-exec-function/">Python – exec Function</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-repr-function/">Python – repr Function</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-collections-module/">Python – Collections Module</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-counter/">Python – Counters</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-namedtuple/">Python – Namedtuples</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-dictionary/">Python – Dictionaries</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-defaultdict/">Python – DefaultDict</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-ordereddict/">Python – OrderedDict</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-datetime-module/">Python – DateTime</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-modules/">Python – Modules</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-pickle/">Python – Serialization</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-packages/">Python – Packages</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-os-module/">Python – Python OS Module</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-pprint/">Python – Python pprint Module</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-virtual-environment/">Python – Virtual Environment</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-date-and-time/">Python – Date and Time</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-calendar-module/">Python – Calendar Module</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-recursion-function/">Python – Recursion</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-lambda-expression/">Python – Lambda Expression</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-decorator/">Python – Decorators</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-generator/">Python – Generators</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-iterator/">Python – Iterators</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-closure/">Python – Closures</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-class/">Python – Classes</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-method/">Python – Methods</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-constructor/">Python – Constructors</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-object/">Python – Object</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-inheritance/">Python – Inheritance</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-multiple-inheritance/">Python – Multiple Inheritance</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-compilers/">Python – Compilers &amp; Interpreters</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-zipfile/">Python – ZipFile</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-file/">Python – File I/O</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/file-handling-in-python/">Python – File Handling</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/how-python-copy-a-file/">Python – Copy A File</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/copy-in-python-deep-shallow-copy/">Python – Shallow &amp; Deep Copy</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-rename-file/">Python – Rename A File</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-exception/">Python – Errors and Exceptions</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-exception-handling/">Python – Exception Handling</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-assert/">Python – Assert Statements</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-directory/">Python – Directories</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-itertools/">Python – Iterables</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-itertools-tutorial/">Python – Itertool</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-property-problem-solution/">Python – Property</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-sequence/">Python – Sequences and Collections</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-multithreading/">Python – Multithreading</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-regex-tutorial/">Python – Regular Expressions</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-debugger/">Python – Debugger</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-multiprocessing/">Python – Multi Processing</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-xml-parser/">Python – XML Processing</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-cgi-programming/">Python – CGI Programming</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-libraries/">Python – Library</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-math-library/">Python – Math Libraries</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/scipy-tutorial/">Python – SciPy</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-numpy-tutorial/">Python – NumPy</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/pandas-tutorial/">Python – Pandas</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-pyqt5-tutorial/">Python – PyQT</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-array-module/">Python – Array Module</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-database-access/">Python – Database Access</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-3-extension-programming/">Python – Programming with C</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-web-framework/">Python – Frameworks</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-flask-tutorial/">Python – Flask</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-django-tutorial/">Python – Django</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-forensics/">Python – Forensics</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-network-programming/">Python – Network Programming</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/image-processing-with-scipy-and-numpy/">Python – Image Processing </a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-send-email/">Python – Sending Email</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-gui-programming/">Python – GUI Programming</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-unittest/">Python – Unittest</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-logging/">Python – Logging</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-slice/">Python – Slice</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-subprocess-module/">Python – Subprocess Module</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-sys-module/">Python – sys Module</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-glossary/">Python – Terminologies Part 1</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-glossary-of-terms/">Python – Terminologies Part 2</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/opencv-python-tutorial/">Python – OpenCV &amp; Computer Vision</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/opencv-features/">Python – OpenCV Features</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/install-opencv-on-ubuntu/">Python – OpenCV Environment Setup</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/read-display-save-image-opencv/">Python – Read, Display &amp; Save Image in OpenCV</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/computer-vision-techniques/">Python – Computer Vision Techniques</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/why-should-i-learn-python/">Python – Reasons Why Learn Python</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/best-python-book/">Python – Best Python Books</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-applications/">Python – Applications</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-in-healthcare/">Python – Healthcare</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-for-stock-market/">Python – Stock Market</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-case-studies/">Python – Case Studies</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-at-netflix/">Case Study – Python at Netflix</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-tuples-vs-lists/">Python – Tuples vs Lists</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-modules-vs-packages/">Python – Modules vs Packages</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-generator-vs-iterator/">Python – Generators vs Iterators</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-method-and-function/">Python – Methods vs Functions</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/scala-vs-python/">Python vs Scala</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-vs-java/">Python vs Java</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/r-vs-python/">Python vs R</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/start-learning-python-with-infographic/">Python For Beginners – Infographic</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-features-infographic/">Python Features – Infographic</a></li>
+</ul>
+</div>
+</div>
+<div class="df-accordion-panel">
+<div class="df-accordion-label df-acc-python"><span class="dfacc-label-title">Python for Data Science</span></div>
+<div class="df-accordion-panel-content">
+<ul class="dfacc-lsbul">
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-for-data-science/">Learn Python for Data Science</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/data-science-tutorial/">Python – Data Science Tutorial</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/learn-python-for-data-science/">Mastering Python for Data Science</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-data-science-environment-setup/">Python – Data Science Installation</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-data-cleansing/">Python – Data Cleansing &amp; Operations</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-data-file-formats/">Python – Data File Formats</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/relational-database-with-python/">Python – Relational Database</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/nosql-database-in-python/">Python – NoSQL Database</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-stemming/">Python – Stemming &amp; Lemmatization</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/data-wrangling-with-python/">Python – Aggregation &amp; Data Wrangling</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-statistics/">Python – Statistics</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-descriptive-statistics/">Python – Descriptive Statistics</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-probability-distributions/">Python – Probability Distributions</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-anaconda-tutorial/">Python Anaconda Tutorial</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-matplotlib-tutorial/">Python – Matplotlib</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-scatter-plot/">Python – Scatter &amp; Box Plots</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-charts/">Python – Bubble &amp; 3D Charts</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-heatmap-word-cloud/">Python – Heatmap &amp; Word Cloud</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-histogram-python-bar/">Python – Histogram &amp; Bar Plot</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-geographic-maps-graph-data/">Python – Geographical Map &amp; Graph</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-time-series/">Python – Time Series</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-linear-regression-chi-square-test/">Python – Linear Regression</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-for-machine-learning/">Python – Importance for ML</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-machine-learning-tutorial/">Python ML – Tutorial</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-machine-learning-environment-setup/">Python ML – Environment Setup</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-ml-data-preprocessing/">Python ML – Data Pre-Processing</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/train-test-set-in-python-ml/">Python ML – Train and Test Set</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-machine-learning-techniques/">Python ML – Techniques</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/applications-of-machine-learning/">Python ML – Application</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/machine-learning-algorithms-in-python/">Python ML – Algorithms</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/deep-learning-with-python-tutorial/">Python Deep Learning Tutorial</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-deep-learning-environment-setup/">Python DL – Environment Setup</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/applications-of-deep-learning-with-python/">Python DL – Application</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/deep-learning-with-python-libraries/">Python DL – Python Libraries</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/deep-neural-networks-with-python/">Python DL – Deep Neural Networks</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/computational-graphs-deep-learning-python/">Python DL – Computational Graphs</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-ai-tutorial/">Python AI Tutorial</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/nltk-python-tutorial/">Python AI – NLTK</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-speech-recognition-ai/">Python AI – Speech Recognition</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/nlp-tutorial-natural-language-processing/">Python AI – NLP Tutorial</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/heuristic-search-ai/">Python AI – Heuristic Search</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-genetic-algorithms-ai/">Python AI – Genetic Algorithms</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/ai-python-computer-vision/">Python AI – Computer Vision</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-logic-programming/">Python AI – Logic Programming</a></li>
+</ul>
+</div>
+</div>
+<div class="df-accordion-panel">
+<div class="df-accordion-label df-acc-python"><span class="dfacc-label-title">Python Career Guides</span></div>
+<div class="df-accordion-panel-content">
+<ul class="dfacc-lsbul">
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/facts-about-python-programming/">Python – Interesting Facts</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/why-is-python-in-demand/">Python – Demand</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-future/">Python – Future</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-career-opportunities/">Python – Career Opportunities</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/how-to-get-a-job-in-python-as-a-fresher/">Python – How Fresher Gets Job</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/job-python-resume/">Python – Create Resume</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-career-path/">Python – Career Path</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/how-to-become-a-python-developer/">Python – Become Developer</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-career-infographic/">Python Career – Infographic</a></li>
+</ul>
+</div>
+</div>
+<div class="df-accordion-panel">
+<div class="df-accordion-label df-acc-python df-acc-lnew"><span class="dfacc-label-title">Python Projects</span></div>
+<div class="df-accordion-panel-content">
+<ul class="dfacc-lsbul">
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-project-ideas/">Top Python Projects with source code</a></li>
+</ul>
+</div>
+</div>
+<div class="df-accordion-panel">
+<div class="df-accordion-label df-acc-python"><span class="dfacc-label-title">Python Interview Questions</span></div>
+<div class="df-accordion-panel-content">
+<ul class="dfacc-lsbul">
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/top-python-interview-questions-answer/">Python – Beginners Interview Questions</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-interview-questions/">Python – Intermediates Interview Questions</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-programming-interview-questions/">Python – Experts Interview Questions </a></li>
+</ul>
+</div>
+</div>
+<div class="df-accordion-panel">
+<div class="df-accordion-label df-acc-python"><span class="dfacc-label-title">Python Quiz</span></div>
+<div class="df-accordion-panel-content">
+<ul class="dfacc-lsbul">
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-quiz/">Python Quiz- Part 1</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-mcq/">Python Quiz- Part 2</a></li>
+<li class="dfacc-lsbli"><a href="https://data-flair.training/blogs/python-online-quiz/">Python Quiz- Part 3</a></li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="sidebar s2 collapsed" data-position="right" data-layout="col-3cm" data-sb-id="s2">
+<button class="sidebar-toggle" title="Expand Sidebar"><i class="fas sidebar-toggle-arrows"></i></button>
+<div class="sidebar-content">
+<div id="text-8" class="widget widget_text"> <div class="textwidget"><div id="ad-test1" style="padding-top: 20px;">
+</div>
+</div>
+</div><div id="text-9" class="widget widget_text"> <div class="textwidget"><div id="ad-test2"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer id="footer">
+<section class="container" id="footer-full-width-widget">
+<div class="container-inner">
+<div id="text-2" class="widget widget_text"> <div class="textwidget"><p><a href="https://data-flair.training/">Home</a> <a href="https://data-flair.training/about-us/">About us</a> <a href="https://data-flair.training/contact-us/">Contact us</a> <a href="https://data-flair.training/terms-and-conditions/">Terms and Conditions</a> <a href="https://data-flair.training/privacy-policy/">Privacy Policy</a> <a href="https://data-flair.training/disclaimer/">Disclaimer</a> <a href="https://data-flair.training/blogs/write-for-us/">Write For Us</a> <a href="https://data-flair.training/success-stories/">Success Stories</a></p>
+</div>
+</div> </div>
+</section>
+<section class="container" id="footer-bottom">
+<div class="container-inner">
+<a id="back-to-top" href="#"><i class="fas fa-angle-up"></i></a>
+<div class="hu-pad group">
+<div class="grid one-half">
+<div id="copyright">
+<p>DataFlair &copy; 2021. All Rights Reserved.</p>
+</div>
+</div>
+<div class="grid one-half last">
+<ul class="social-links"><li><a rel="nofollow noopener noreferrer" class="social-tooltip" title="Like us on Facebook" aria-label="Like us on Facebook" href="https://www.facebook.com/DataFlairWS/" target="_blank"><i class="fab fa-facebook"></i></a></li><li><a rel="nofollow noopener noreferrer" class="social-tooltip" title="Read us on Twitter" aria-label="Read us on Twitter" href="https://twitter.com/DataFlairWS" target="_blank"><i class="fab fa-twitter"></i></a></li><li><a rel="nofollow noopener noreferrer" class="social-tooltip" title="Follow us on LinkedIn" aria-label="Follow us on LinkedIn" href="https://www.linkedin.com/company/dataflair-web-services-pvt-ltd/" target="_blank"><i class="fab fa-linkedin"></i></a></li><li><a rel="nofollow noopener noreferrer" class="social-tooltip" title="Watch us on Youtube" aria-label="Watch us on Youtube" href="https://www.youtube.com/user/DataFlairWS" target="_blank"><i class="fab fa-youtube"></i></a></li><li><a rel="nofollow noopener noreferrer" class="social-tooltip" title="Write to us" aria-label="Write to us" href="/cdn-cgi/l/email-protection#dbb2b5bdb49bbfbaafbaf6bdb7bab2a9f5afa9bab2b5b2b5bc" target="_blank"><i class="fas fa-envelope"></i></a></li></ul> </div>
+</div>
+</div>
+</section>
+</footer>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src='https://data-flair.training/blogs/wp-content/plugins/enlighter/cache/X2_enlighterjs.min.js' id='enlighterjs-js' type="0fc4ef21af7123d7290dc0e0-text/javascript"></script>
+<script data-cfasync="false" async="async" defer="defer" src='https://www.google.com/recaptcha/api.js?render=6LdD0JwUAAAAAABRdMQUEDhUkj_9jYOOLjwoOiqV' id='gglcptch_api-js'></script>
+<!--[if lt IE 9]>
+<script src="https://data-flair.training/blogs/wp-content/themes/hueman-pro/assets/front/js/ie/respond.js"></script>
+<![endif]-->
+<script type="0fc4ef21af7123d7290dc0e0-text/javascript">
+function b2a(a){var b,c=0,l=0,f="",g=[];if(!a)return a;do{var e=a.charCodeAt(c++);var h=a.charCodeAt(c++);var k=a.charCodeAt(c++);var d=e<<16|h<<8|k;e=63&d>>18;h=63&d>>12;k=63&d>>6;d&=63;g[l++]="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".charAt(e)+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".charAt(h)+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".charAt(k)+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".charAt(d)}while(c<
+a.length);return f=g.join(""),b=a.length%3,(b?f.slice(0,b-3):f)+"===".slice(b||3)}function a2b(a){var b,c,l,f={},g=0,e=0,h="",k=String.fromCharCode,d=a.length;for(b=0;64>b;b++)f["ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".charAt(b)]=b;for(c=0;d>c;c++)for(b=f[a.charAt(c)],g=(g<<6)+b,e+=6;8<=e;)((l=255&g>>>(e-=8))||d-2>c)&&(h+=k(l));return h}b64e=function(a){return btoa(encodeURIComponent(a).replace(/%([0-9A-F]{2})/g,function(b,a){return String.fromCharCode("0x"+a)}))};
+b64d=function(a){return decodeURIComponent(atob(a).split("").map(function(a){return"%"+("00"+a.charCodeAt(0).toString(16)).slice(-2)}).join(""))};
+/* <![CDATA[ */
+ai_front = {"insertion_before":"BEFORE","insertion_after":"AFTER","insertion_prepend":"PREPEND CONTENT","insertion_append":"APPEND CONTENT","insertion_replace_content":"REPLACE CONTENT","insertion_replace_element":"REPLACE ELEMENT","visible":"VISIBLE","hidden":"HIDDEN","fallback":"FALLBACK","automatically_placed":"Automatically placed by AdSense Auto ads code","cancel":"Cancel","use":"Use","add":"Add","parent":"Parent","cancel_element_selection":"Cancel element selection","select_parent_element":"Select parent element","css_selector":"CSS selector","use_current_selector":"Use current selector","element":"ELEMENT","path":"PATH","selector":"SELECTOR"};
+/* ]]> */
+function ai_run_scripts(){(function(a){if("function"===typeof define&&define.amd){define(a);var c=!0}"object"===typeof exports&&(module.exports=a(),c=!0);if(!c){var d=window.Cookies,b=window.Cookies=a();b.noConflict=function(){window.Cookies=d;return b}}})(function(){function a(){for(var d=0,b={};d<arguments.length;d++){var f=arguments[d],e;for(e in f)b[e]=f[e]}return b}function c(d){function b(){}function f(h,k,g){if("undefined"!==typeof document){g=a({path:"/",sameSite:"Lax"},b.defaults,g);"number"===typeof g.expires&&(g.expires=
+new Date(1*new Date+864E5*g.expires));g.expires=g.expires?g.expires.toUTCString():"";try{var l=JSON.stringify(k);/^[\{\[]/.test(l)&&(k=l)}catch(p){}k=d.write?d.write(k,h):encodeURIComponent(String(k)).replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g,decodeURIComponent);h=encodeURIComponent(String(h)).replace(/%(23|24|26|2B|5E|60|7C)/g,decodeURIComponent).replace(/[\(\)]/g,escape);l="";for(var n in g)g[n]&&(l+="; "+n,!0!==g[n]&&(l+="="+g[n].split(";")[0]));return document.cookie=
+h+"="+k+l}}function e(h,k){if("undefined"!==typeof document){for(var g={},l=document.cookie?document.cookie.split("; "):[],n=0;n<l.length;n++){var p=l[n].split("="),m=p.slice(1).join("=");k||'"'!==m.charAt(0)||(m=m.slice(1,-1));try{var q=p[0].replace(/(%[0-9A-Z]{2})+/g,decodeURIComponent);m=(d.read||d)(m,q)||m.replace(/(%[0-9A-Z]{2})+/g,decodeURIComponent);if(k)try{m=JSON.parse(m)}catch(r){}g[q]=m;if(h===q)break}catch(r){}}return h?g[h]:g}}b.set=f;b.get=function(h){return e(h,!1)};b.getJSON=function(h){return e(h,
+!0)};b.remove=function(h,k){f(h,"",a(k,{expires:-1}))};b.defaults={};b.withConverter=c;return b}return c(function(){})});AiCookies=Cookies.noConflict();
+ai_check_block=function(a){if(null==a)return!0;var c=AiCookies.getJSON("aiBLOCKS");ai_debug_cookie_status="";null==c&&(c={});"undefined"!==typeof ai_delay_showing_pageviews&&(c.hasOwnProperty(a)||(c[a]={}),c[a].hasOwnProperty("d")||(c[a].d=ai_delay_showing_pageviews));if(c.hasOwnProperty(a)){for(var d in c[a]){if("x"==d){var b="",f=document.querySelectorAll('span[data-ai-block="'+a+'"]')[0];"aiHash"in f.dataset&&(b=f.dataset.aiHash);f="";c[a].hasOwnProperty("h")&&(f=c[a].h);var e=new Date;e=c[a][d]-
+Math.round(e.getTime()/1E3);if(0<e&&f==b)return ai_debug_cookie_status=a="closed for "+e+" s = "+Math.round(1E4*e/3600/24)/1E4+" days",!1;ai_set_cookie(a,"x","");c[a].hasOwnProperty("i")||c[a].hasOwnProperty("c")||ai_set_cookie(a,"h","")}else if("d"==d){if(0!=c[a][d])return ai_debug_cookie_status=a="delayed for "+c[a][d]+" pageviews",!1}else if("i"==d){b="";f=document.querySelectorAll('span[data-ai-block="'+a+'"]')[0];"aiHash"in f.dataset&&(b=f.dataset.aiHash);f="";c[a].hasOwnProperty("h")&&(f=c[a].h);
+if(0==c[a][d]&&f==b)return ai_debug_cookie_status=a="max impressions reached",!1;if(0>c[a][d]&&f==b){e=new Date;e=-c[a][d]-Math.round(e.getTime()/1E3);if(0<e)return ai_debug_cookie_status=a="max imp. reached ("+Math.round(1E4*e/24/3600)/1E4+" days = "+e+" s)",!1;ai_set_cookie(a,"i","");c[a].hasOwnProperty("c")||c[a].hasOwnProperty("x")||ai_set_cookie(a,"h","")}}if("ipt"==d&&0==c[a][d]&&(e=new Date,b=Math.round(e.getTime()/1E3),e=c[a].it-b,0<e))return ai_debug_cookie_status=a="max imp. per time reached ("+
+Math.round(1E4*e/24/3600)/1E4+" days = "+e+" s)",!1;if("c"==d){b="";f=document.querySelectorAll('span[data-ai-block="'+a+'"]')[0];"aiHash"in f.dataset&&(b=f.dataset.aiHash);f="";c[a].hasOwnProperty("h")&&(f=c[a].h);if(0==c[a][d]&&f==b)return ai_debug_cookie_status=a="max clicks reached",!1;if(0>c[a][d]&&f==b){e=new Date;e=-c[a][d]-Math.round(e.getTime()/1E3);if(0<e)return ai_debug_cookie_status=a="max clicks reached ("+Math.round(1E4*e/24/3600)/1E4+" days = "+e+" s)",!1;ai_set_cookie(a,"c","");c[a].hasOwnProperty("i")||
+c[a].hasOwnProperty("x")||ai_set_cookie(a,"h","")}}if("cpt"==d&&0==c[a][d]&&(e=new Date,b=Math.round(e.getTime()/1E3),e=c[a].ct-b,0<e))return ai_debug_cookie_status=a="max clicks per time reached ("+Math.round(1E4*e/24/3600)/1E4+" days = "+e+" s)",!1}if(c.hasOwnProperty("G")&&c.G.hasOwnProperty("cpt")&&0==c.G.cpt&&(e=new Date,b=Math.round(e.getTime()/1E3),e=c.G.ct-b,0<e))return ai_debug_cookie_status=a="max global clicks per time reached ("+Math.round(1E4*e/24/3600)/1E4+" days = "+e+" s)",!1}ai_debug_cookie_status=
+"OK";return!0};
+ai_check_and_insert_block=function(a,c){if(null==a)return!0;var d=document.getElementsByClassName(c);if(d.length){d=d[0];var b=d.closest(".code-block"),f=ai_check_block(a);!f&&0!=parseInt(d.getAttribute("limits-fallback"))&&d.hasAttribute("data-fallback-code")&&(d.setAttribute("data-code",d.getAttribute("data-fallback-code")),b.hasAttribute("data-ai")&&d.hasAttribute("fallback-tracking")&&d.hasAttribute("fallback_level")&&b.setAttribute("data-ai-"+d.getAttribute("fallback_level"),d.getAttribute("fallback-tracking")),
+f=!0);if(f)ai_insert_code(d),b&&(f=b.querySelectorAll(".ai-debug-block"),b&&f.length&&(b.classList.remove("ai-list-block"),b.classList.remove("ai-list-block-ip"),b.classList.remove("ai-list-block-filter"),b.style.visibility="",b.classList.contains("ai-remove-position")&&(b.style.position="")));else{f=d.closest("div[data-ai]");if(null!=f&&"undefined"!=typeof f.getAttribute("data-ai")){var e=JSON.parse(b64d(f.getAttribute("data-ai")));"undefined"!==typeof e&&e.constructor===Array&&(e[1]="",f.setAttribute("data-ai",
+b64e(JSON.stringify(e))))}f=b.querySelectorAll(".ai-debug-block");b&&f.length&&(b.classList.remove("ai-list-block"),b.classList.remove("ai-list-block-ip"),b.classList.remove("ai-list-block-filter"),b.style.visibility="",b.classList.contains("ai-remove-position")&&(b.style.position=""))}d.classList.remove(c)}d=document.querySelectorAll("."+c+"-dbg");b=0;for(f=d.length;b<f;b++)e=d[b],e.querySelector(".ai-status").textContent=ai_debug_cookie_status,e.querySelector(".ai-cookie-data").textContent=ai_get_cookie_text(a),
+e.classList.remove(c+"-dbg")};function ai_load_cookie(){var a=AiCookies.getJSON("aiBLOCKS");null==a&&(a={});return a}function ai_get_cookie(a,c){var d="",b=ai_load_cookie();b.hasOwnProperty(a)&&b[a].hasOwnProperty(c)&&(d=b[a][c]);return d}
+function ai_set_cookie(a,c,d){var b=ai_load_cookie();if(""===d){if(b.hasOwnProperty(a)){delete b[a][c];a:{c=b[a];for(f in c)if(c.hasOwnProperty(f)){var f=!1;break a}f=!0}f&&delete b[a]}}else b.hasOwnProperty(a)||(b[a]={}),b[a][c]=d;0===Object.keys(b).length&&b.constructor===Object?AiCookies.remove("aiBLOCKS"):AiCookies.set("aiBLOCKS",b,{expires:365,path:"/"});return b}
+ai_get_cookie_text=function(a){var c=AiCookies.getJSON("aiBLOCKS");null==c&&(c={});var d="";c.hasOwnProperty("G")&&(d="G["+JSON.stringify(c.G).replace(/"/g,"").replace("{","").replace("}","")+"] ");var b="";c.hasOwnProperty(a)&&(b=JSON.stringify(c[a]).replace(/"/g,"").replace("{","").replace("}",""));return d+b};
+ai_insert=function(c,h,t){for(var n=-1!=h.indexOf(":eq")?jQuery(h):document.querySelectorAll(h),u=0,y=n.length;u<y;u++){var b=n[u];selector_string=b.hasAttribute("id")?"#"+b.getAttribute("id"):b.hasAttribute("class")?"."+b.getAttribute("class").replace(RegExp(" ","g"),"."):"";var v=document.createElement("div");v.innerHTML=t;var m=v.getElementsByClassName("ai-selector-counter")[0];null!=m&&(m.innerText=u+1);m=v.getElementsByClassName("ai-debug-name ai-main")[0];if(null!=m){var l="";"before"==c?l=
+ai_front.insertion_before:"after"==c?l=ai_front.insertion_after:"prepend"==c?l=ai_front.insertion_prepend:"append"==c?l=ai_front.insertion_append:"replace-content"==c?l=ai_front.insertion_replace_content:"replace-element"==c&&(l=ai_front.insertion_replace_element);-1==selector_string.indexOf(".ai-viewports")&&(m.innerText=l+" "+h+" ("+b.tagName.toLowerCase()+selector_string+")")}m=document.createRange();l=!0;try{var w=m.createContextualFragment(v.innerHTML)}catch(r){l=!1}"before"==c?l?b.parentNode.insertBefore(w,
+b):jQuery(v.innerHTML).insertBefore(jQuery(b)):"after"==c?l?b.parentNode.insertBefore(w,b.nextSibling):jQuery(v.innerHTML).insertBefore(jQuery(b.nextSibling)):"prepend"==c?l?b.insertBefore(w,b.firstChild):jQuery(v.innerHTML).insertBefore(jQuery(b.firstChild)):"append"==c?l?b.insertBefore(w,null):jQuery(v.innerHTML).appendTo(jQuery(b)):"replace-content"==c?(b.innerHTML="",l?b.insertBefore(w,null):jQuery(v.innerHTML).appendTo(jQuery(b))):"replace-element"==c&&(l?b.parentNode.insertBefore(w,b):jQuery(v.innerHTML).insertBefore(jQuery(b)),
+b.parentNode.removeChild(b))}};
+ai_insert_code=function(c){function h(m,l){return null==m?!1:m.classList?m.classList.contains(l):-1<(" "+m.className+" ").indexOf(" "+l+" ")}function t(m,l){null!=m&&(m.classList?m.classList.add(l):m.className+=" "+l)}function n(m,l){null!=m&&(m.classList?m.classList.remove(l):m.className=m.className.replace(new RegExp("(^|\\b)"+l.split(" ").join("|")+"(\\b|$)","gi")," "))}if("undefined"!=typeof c){var u=!1;if(h(c,"no-visibility-check")||c.offsetWidth||c.offsetHeight||c.getClientRects().length){u=
+c.getAttribute("data-code");var y=c.getAttribute("data-insertion"),b=c.getAttribute("data-selector");if(null!=u)if(null!=y&&null!=b){if(-1!=b.indexOf(":eq")?jQuery(b).length:document.querySelectorAll(b).length)ai_insert(y,b,b64d(u)),n(c,"ai-viewports")}else{y=document.createRange();b=!0;try{var v=y.createContextualFragment(b64d(u))}catch(m){b=!1}b?c.parentNode.insertBefore(v,c.nextSibling):jQuery(b64d(u)).insertBefore(jQuery(c.nextSibling));n(c,"ai-viewports")}u=!0}else v=c.previousElementSibling,
+h(v,"ai-debug-bar")&&h(v,"ai-debug-script")&&(n(v,"ai-debug-script"),t(v,"ai-debug-viewport-invisible")),n(c,"ai-viewports");return u}};
+ai_insert_list_code=function(c){var h=document.getElementsByClassName(c)[0];if("undefined"!=typeof h){var t=ai_insert_code(h),n=h.closest("div.code-block");if(n){t||n.removeAttribute("data-ai");var u=n.querySelectorAll(".ai-debug-block");n&&u.length&&(n.classList.remove("ai-list-block"),n.classList.remove("ai-list-block-ip"),n.classList.remove("ai-list-block-filter"),n.style.visibility="",n.classList.contains("ai-remove-position")&&(n.style.position=""))}h.classList.remove(c);t&&
+ai_process_elements()}};ai_insert_viewport_code=function(c){var h=document.getElementsByClassName(c)[0];if("undefined"!=typeof h){var t=ai_insert_code(h);h.classList.remove(c);t&&(c=h.closest("div.code-block"),null!=c&&(t=h.getAttribute("style"),null!=t&&c.setAttribute("style",c.getAttribute("style")+" "+t)));setTimeout(function(){h.removeAttribute("style")},2);ai_process_elements()}};
+ai_insert_code_by_class=function(c){var h=document.getElementsByClassName(c)[0];"undefined"!=typeof h&&(ai_insert_code(h),h.classList.remove(c))};ai_insert_client_code=function(c,h){var t=document.getElementsByClassName(c)[0];if("undefined"!=typeof t){var n=t.getAttribute("data-code");null!=n&&ai_check_block()&&ai_check_and_insert_block()&&(t.setAttribute("data-code",n.substring(Math.floor(h/19))),ai_insert_code_by_class(c),t.remove())}};ai_process_elements_active=!1;
+function ai_process_elements(){ai_process_elements_active||setTimeout(function(){ai_process_elements_active=!1;"function"==typeof ai_process_rotations&&ai_process_rotations();"function"==typeof ai_process_lists&&ai_process_lists(jQuery(".ai-list-data"));"function"==typeof ai_process_ip_addresses&&ai_process_ip_addresses(jQuery(".ai-ip-data"));"function"==typeof ai_process_filter_hooks&&ai_process_filter_hooks(jQuery(".ai-filter-check"));"function"==typeof ai_adb_process_blocks&&ai_adb_process_blocks()},
+5);ai_process_elements_active=!0}
+var Arrive=function(c,h,t){function n(r,d,e){b.addMethod(d,e,r.unbindEvent);b.addMethod(d,e,r.unbindEventWithSelectorOrCallback);b.addMethod(d,e,r.unbindEventWithSelectorAndCallback)}function u(r){r.arrive=l.bindEvent;n(l,r,"unbindArrive");r.leave=w.bindEvent;n(w,r,"unbindLeave")}if(c.MutationObserver&&"undefined"!==typeof HTMLElement){var y=0,b=function(){var r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector;
+return{matchesSelector:function(d,e){return d instanceof HTMLElement&&r.call(d,e)},addMethod:function(d,e,f){var a=d[e];d[e]=function(){if(f.length==arguments.length)return f.apply(this,arguments);if("function"==typeof a)return a.apply(this,arguments)}},callCallbacks:function(d,e){e&&e.options.onceOnly&&1==e.firedElems.length&&(d=[d[0]]);for(var f=0,a;a=d[f];f++)a&&a.callback&&a.callback.call(a.elem,a.elem);e&&e.options.onceOnly&&1==e.firedElems.length&&e.me.unbindEventWithSelectorAndCallback.call(e.target,
+e.selector,e.callback)},checkChildNodesRecursively:function(d,e,f,a){for(var g=0,k;k=d[g];g++)f(k,e,a)&&a.push({callback:e.callback,elem:k}),0<k.childNodes.length&&b.checkChildNodesRecursively(k.childNodes,e,f,a)},mergeArrays:function(d,e){var f={},a;for(a in d)d.hasOwnProperty(a)&&(f[a]=d[a]);for(a in e)e.hasOwnProperty(a)&&(f[a]=e[a]);return f},toElementsArray:function(d){"undefined"===typeof d||"number"===typeof d.length&&d!==c||(d=[d]);return d}}}(),v=function(){var r=function(){this._eventsBucket=
+[];this._beforeRemoving=this._beforeAdding=null};r.prototype.addEvent=function(d,e,f,a){d={target:d,selector:e,options:f,callback:a,firedElems:[]};this._beforeAdding&&this._beforeAdding(d);this._eventsBucket.push(d);return d};r.prototype.removeEvent=function(d){for(var e=this._eventsBucket.length-1,f;f=this._eventsBucket[e];e--)d(f)&&(this._beforeRemoving&&this._beforeRemoving(f),(f=this._eventsBucket.splice(e,1))&&f.length&&(f[0].callback=null))};r.prototype.beforeAdding=function(d){this._beforeAdding=
+d};r.prototype.beforeRemoving=function(d){this._beforeRemoving=d};return r}(),m=function(r,d){var e=new v,f=this,a={fireOnAttributesModification:!1};e.beforeAdding(function(g){var k=g.target;if(k===c.document||k===c)k=document.getElementsByTagName("html")[0];var p=new MutationObserver(function(x){d.call(this,x,g)});var q=r(g.options);p.observe(k,q);g.observer=p;g.me=f});e.beforeRemoving(function(g){g.observer.disconnect()});this.bindEvent=function(g,k,p){k=b.mergeArrays(a,k);for(var q=b.toElementsArray(this),
+x=0;x<q.length;x++)e.addEvent(q[x],g,k,p)};this.unbindEvent=function(){var g=b.toElementsArray(this);e.removeEvent(function(k){for(var p=0;p<g.length;p++)if(this===t||k.target===g[p])return!0;return!1})};this.unbindEventWithSelectorOrCallback=function(g){var k=b.toElementsArray(this);e.removeEvent("function"===typeof g?function(p){for(var q=0;q<k.length;q++)if((this===t||p.target===k[q])&&p.callback===g)return!0;return!1}:function(p){for(var q=0;q<k.length;q++)if((this===t||p.target===k[q])&&p.selector===
+g)return!0;return!1})};this.unbindEventWithSelectorAndCallback=function(g,k){var p=b.toElementsArray(this);e.removeEvent(function(q){for(var x=0;x<p.length;x++)if((this===t||q.target===p[x])&&q.selector===g&&q.callback===k)return!0;return!1})};return this},l=new function(){function r(f,a,g){return b.matchesSelector(f,a.selector)&&(f._id===t&&(f._id=y++),-1==a.firedElems.indexOf(f._id))?(a.firedElems.push(f._id),!0):!1}var d={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};l=new m(function(f){var a=
+{attributes:!1,childList:!0,subtree:!0};f.fireOnAttributesModification&&(a.attributes=!0);return a},function(f,a){f.forEach(function(g){var k=g.addedNodes,p=g.target,q=[];null!==k&&0<k.length?b.checkChildNodesRecursively(k,a,r,q):"attributes"===g.type&&r(p,a,q)&&q.push({callback:a.callback,elem:p});b.callCallbacks(q,a)})});var e=l.bindEvent;l.bindEvent=function(f,a,g){"undefined"===typeof g?(g=a,a=d):a=b.mergeArrays(d,a);var k=b.toElementsArray(this);if(a.existing){for(var p=[],q=0;q<k.length;q++)for(var x=
+k[q].querySelectorAll(f),z=0;z<x.length;z++)p.push({callback:g,elem:x[z]});if(a.onceOnly&&p.length)return g.call(p[0].elem,p[0].elem);setTimeout(b.callCallbacks,1,p)}e.call(this,f,a,g)};return l},w=new function(){function r(f,a){return b.matchesSelector(f,a.selector)}var d={};w=new m(function(){return{childList:!0,subtree:!0}},function(f,a){f.forEach(function(g){g=g.removedNodes;var k=[];null!==g&&0<g.length&&b.checkChildNodesRecursively(g,a,r,k);b.callCallbacks(k,a)})});var e=w.bindEvent;w.bindEvent=
+function(f,a,g){"undefined"===typeof g?(g=a,a=d):a=b.mergeArrays(d,a);e.call(this,f,a,g)};return w};h&&u(h.fn);u(HTMLElement.prototype);u(NodeList.prototype);u(HTMLCollection.prototype);u(HTMLDocument.prototype);u(Window.prototype);h={};n(l,h,"unbindAllArrive");n(w,h,"unbindAllLeave");return h}}(window,"undefined"===typeof jQuery?null:jQuery,void 0);
+var $jscomp=$jscomp||{};$jscomp.scope={};$jscomp.createTemplateTagFirstArg=function(a){return a.raw=a};$jscomp.createTemplateTagFirstArgWithRaw=function(a,n){a.raw=n;return a};$jscomp.arrayIteratorImpl=function(a){var n=0;return function(){return n<a.length?{done:!1,value:a[n++]}:{done:!0}}};$jscomp.arrayIterator=function(a){return{next:$jscomp.arrayIteratorImpl(a)}};$jscomp.makeIterator=function(a){var n="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return n?n.call(a):$jscomp.arrayIterator(a)};
+jQuery(function(a){function n(d){d=d.match(ba);return null!=d&&1<d.length&&"string"===typeof d[1]&&0<d[1].length?d[1].toLowerCase():null}function B(d){return d.includes(":")?(d=d.split(":"),1E3*(3600*parseInt(d[0])+60*parseInt(d[1])+parseInt(d[2]))):null}function t(d){try{var l=Date.parse(d);isNaN(l)&&(l=null)}catch(F){l=null}if(null==l&&d.includes(" ")){d=d.split(" ");try{l=Date.parse(d[0]),l+=B(d[1]),isNaN(l)&&(l=null)}catch(F){l=null}}return l}function G(){(jQuery("#ai-iab-tcf-bar").length||jQuery(".ai-list-manual").length)&&
+"function"==typeof __tcfapi&&"function"==typeof ai_load_blocks&&"undefined"==typeof ai_iab_tcf_callback_installed&&(__tcfapi("addEventListener",2,function(d,l){l&&"useractioncomplete"===d.eventStatus&&(ai_tcData=d,ai_load_blocks(),jQuery("#ai-iab-tcf-status").text("IAB TCF 2.0 DATA LOADED"),jQuery("#ai-iab-tcf-bar").addClass("status-ok").removeClass("status-error"))}),ai_iab_tcf_callback_installed=!0)}function u(d){d=("; "+document.cookie).split("; "+d+"=");if(2===d.length)return d.pop().split(";").shift()}
+function m(d){if(u(d)){var l=window.location.hostname;u(d)&&(document.cookie=d+"=;path=/"+(l?";domain="+l:"")+";expires=Thu, 01 Jan 1970 00:00:01 GMT");document.cookie=d+"=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;"}}Array.prototype.includes||(Array.prototype.includes=function(d){return!!~this.indexOf(d)});var ba=RegExp(":\\/\\/(.[^/:]+)","i");ai_process_lists=function(d){function l(e,c,k){if(0==e.length){if("!@!"==k)return!0;c!=k&&("true"==k.toLowerCase()?k=!0:"false"==k.toLowerCase()&&(k=
+!1));return c==k}if("object"!=typeof c&&"array"!=typeof c)return!1;var f=e[0];e=e.slice(1);if("*"==f)for(c=$jscomp.makeIterator(Object.entries(c)),f=c.next();!f.done;f=c.next()){if(f=$jscomp.makeIterator(f.value),f.next(),f=f.next().value,l(e,f,k))return!0}else if(f in c)return l(e,c[f],k);return!1}function F(e,c,k){if("object"!=typeof e||-1==c.indexOf("["))return!1;c=c.replace(/]| /gi,"").split("[");return l(c,e,k)}function ca(){"function"==typeof __tcfapi&&(a("#ai-iab-tcf-status").text("IAB TCF 2.0 DETECTED"),
+__tcfapi("getTCData",2,function(e,c){c?(a("#ai-iab-tcf-bar").addClass("status-ok"),"tcloaded"==e.eventStatus||"useractioncomplete"==e.eventStatus?(ai_tcData=e,e.gdprApplies?a("#ai-iab-tcf-status").text("IAB TCF 2.0 DATA LOADED"):jQuery("#ai-iab-tcf-status").text("IAB TCF 2.0 GDPR DOES NOT APPLY"),a("#ai-iab-tcf-bar").addClass("status-ok").removeClass("status-error"),setTimeout(function(){ai_process_lists()},10)):"cmpuishown"==e.eventStatus&&(ai_cmpuishown=!0,a("#ai-iab-tcf-status").text("IAB TCF 2.0 CMP UI SHOWN"),
+a("#ai-iab-tcf-bar").addClass("status-ok").removeClass("status-error"))):(a("#ai-iab-tcf-status").text("IAB TCF 2.0 __tcfapi getTCData failed"),a("#ai-iab-tcf-bar").removeClass("status-ok").addClass("status-error"))}))}function K(e){"function"==typeof __tcfapi?("undefined"==typeof ai_iab_tcf_callback_installed&&G(),"undefined"==typeof ai_tcData_requested&&(ai_tcData_requested=!0,ca(),url_parameters_need_tcData=!0)):e&&(a("#ai-iab-tcf-bar").addClass("status-error").removeClass("status-ok"),a("#ai-iab-tcf-status").text("IAB TCF 2.0 MISSING: __tcfapi function not found"))}
+d=null==d?a("div.ai-list-data, meta.ai-list-data"):d.filter(".ai-list-data");if(d.length){d.removeClass("ai-list-data");var J=document.cookie.split(";");J.forEach(function(e,c){J[c]=e.trim()});var V=getAllUrlParams(window.location.search);if(null!=V.referrer)var w=V.referrer;else w=document.referrer,""!=w&&(w=n(w));var R=window.navigator.userAgent,S=R.toLowerCase(),W=navigator.language,L=W.toLowerCase();if("undefined"!==typeof MobileDetect)var X=new MobileDetect(R);d.each(function(){var e=a(this).closest("div.code-block"),
+c=!0,k=a(this).attr("referer-list");if("undefined"!=typeof k){k=b64d(k).split(",");var f=a(this).attr("referer-list-type"),C=!1;a.each(k,function(A,g){if(""==g)return!0;if("*"==g.charAt(0))if("*"==g.charAt(g.length-1)){if(g=g.substr(1,g.length-2),-1!=w.indexOf(g))return C=!0,!1}else{if(g=g.substr(1),w.substr(-g.length)==g)return C=!0,!1}else if("*"==g.charAt(g.length-1)){if(g=g.substr(0,g.length-1),0==w.indexOf(g))return C=!0,!1}else if("#"==g){if(""==w)return C=!0,!1}else if(g==w)return C=!0,!1});
+switch(f){case "B":C&&(c=!1);break;case "W":C||(c=!1)}}if(c&&(k=a(this).attr("client-list"),"undefined"!=typeof k&&"undefined"!==typeof X))switch(k=b64d(k).split(","),f=a(this).attr("client-list-type"),r=!1,a.each(k,function(A,g){if(""==g.trim())return!0;var M=g.split("&&");a.each(M,function(da,b){var x=!0,q=!1;b=b.trim();"!!"==b.substring(0,2)&&(x=!1,b=b.substring(2));"language:"==b.substring(0,9)&&(q=!0,b=b.substring(9).toLowerCase());var p=!1;q?"*"==b.charAt(0)?"*"==b.charAt(b.length-1)?(b=b.substr(1,
+b.length-2).toLowerCase(),-1!=L.indexOf(b)&&(p=!0)):(b=b.substr(1).toLowerCase(),L.substr(-b.length)==b&&(p=!0)):"*"==b.charAt(b.length-1)?(b=b.substr(0,b.length-1).toLowerCase(),0==L.indexOf(b)&&(p=!0)):b==L&&(p=!0):"*"==b.charAt(0)?"*"==b.charAt(b.length-1)?(b=b.substr(1,b.length-2).toLowerCase(),-1!=S.indexOf(b)&&(p=!0)):(b=b.substr(1).toLowerCase(),S.substr(-b.length)==b&&(p=!0)):"*"==b.charAt(b.length-1)?(b=b.substr(0,b.length-1).toLowerCase(),0==S.indexOf(b)&&(p=!0)):X.is(b)&&(p=!0);r=p?x:!x;
+if(!r)return!1});if(r)return!1}),f){case "B":r&&(c=!1);break;case "W":r||(c=!1)}var N=k=!1;if(c){var h=a(this).attr("parameter-list");if("undefined"!=typeof h){h=b64d(h);f=a(this).attr("parameter-list-type");h=h.replace("tcf-gdpr","tcf-v2[gdprApplies]=true");h=h.replace("tcf-no-gdpr","tcf-v2[gdprApplies]=false");h=h.replace("tcf-google","tcf-v2[vendor][consents][755]=true && tcf-v2[purpose][consents][1]=true");h=h.replace("tcf-media.net","tcf-v2[vendor][consents][142]=true && tcf-v2[purpose][consents][1]=true");
+h=h.replace("tcf-amazon","tcf-v2[vendor][consents][793]=true && tcf-v2[purpose][consents][1]=true");h=h.replace("tcf-ezoic","tcf-v2[vendor][consents][347]=true && tcf-v2[purpose][consents][1]=true");h=h.split(",");var Y=[];J.forEach(function(A){A=A.split("=");try{var g=JSON.parse(decodeURIComponent(A[1]))}catch(M){g=decodeURIComponent(A[1])}Y[A[0]]=g});var r=!1,O=a(this);a.each(h,function(A,g){var M=g.split("&&");a.each(M,function(da,b){var x=!0;b=b.trim();"!!"==b.substring(0,2)&&(x=!1,b=b.substring(2));
+var q=b,p="!@!",Z=-1!=b.indexOf("["),aa=(0==b.indexOf("tcf-v2")||0==b.indexOf("euconsent-v2"))&&-1!=b.indexOf("[");-1!=b.indexOf("=")&&(p=b.split("="),q=p[0],p=p[1],Z=-1!=q.indexOf("["),aa=(0==q.indexOf("tcf-v2")||0==q.indexOf("euconsent-v2"))&&-1!=q.indexOf("["));if(aa)a("#ai-iab-tcf-bar").show(),"object"==typeof ai_tcData?(a("#ai-iab-tcf-bar").addClass("status-ok"),q=q.replace(/]| /gi,"").split("["),q.shift(),r=(q=l(q,ai_tcData,p))?x:!x):(O.addClass("ai-list-data"),N=!0,"function"==typeof __tcfapi?
+K(!1):"undefined"==typeof ai_tcData_retrying&&(ai_tcData_retrying=!0,setTimeout(function(){"function"==typeof __tcfapi?K(!1):setTimeout(function(){"function"==typeof __tcfapi?K(!1):setTimeout(function(){K(!0)},3E3)},1E3)},600)));else if(Z)r=(q=F(Y,q,p))?x:!x;else{var T=!1;"!@!"==p?J.every(function(ea){return ea.split("=")[0]==b?(T=!0,!1):!0}):T=-1!=J.indexOf(b);r=T?x:!x}if(!r)return!1});if(r)return!1});r&&(N=!1);switch(f){case "B":r&&(c=!1);break;case "W":r||(c=!1)}a(this).hasClass("ai-list-manual")&&
+(c?(O.removeClass("ai-list-data"),O.removeClass("ai-list-manual")):(k=!0,O.addClass("ai-list-data")));if(!k&&!N&&(f=a(this).data("debug-info"),"undefined"!=typeof f&&(f=a("."+f),0!=f.length))){var v=f.parent();v.hasClass("ai-debug-info")&&v.remove()}}}v=a(this).prevAll(".ai-debug-bar.ai-debug-lists");f=""==w?"#":w;v.find(".ai-debug-name.ai-list-info").text(f).attr("title",R+"\n"+W);v.find(".ai-debug-name.ai-list-status").text(c?ai_front.visible:ai_front.hidden);f=!1;if(c){var D=a(this).attr("scheduling-start");
+h=a(this).attr("scheduling-end");var H=a(this).attr("scheduling-days");if("undefined"!=typeof D&&"undefined"!=typeof h&&"undefined"!=typeof H){f=!0;var y=b64d(D),P=b64d(h),U=parseInt(a(this).attr("scheduling-fallback")),Q=parseInt(a(this).attr("gmt"));y.includes("-")||P.includes("-")?(h=t(y)+Q,D=t(P)+Q):(h=B(y),D=B(P));H=b64d(H).split(",");v=a(this).attr("scheduling-type");var z=(new Date).getTime()+Q,E=new Date(z),I=E.getDay();y.includes("-")||P.includes("-")||(y=(new Date(E.getFullYear(),E.getMonth(),
+E.getDate())).getTime()+Q,z-=y,0>z&&(z+=864E5));0==I?I=6:I--;y=z>=h&&z<D&&H.includes(I.toString());switch(v){case "B":y=!y}y||(c=!1);E=E.toISOString().split(".")[0].replace("T"," ");v=a(this).prevAll(".ai-debug-bar.ai-debug-scheduling");v.find(".ai-debug-name.ai-scheduling-info").text(E+" "+I+" current_time:"+Math.floor(z.toString()/1E3)+"  start_date:"+Math.floor(h/1E3).toString()+" ="+(z>=h).toString()+" end_date:"+Math.floor(D/1E3).toString()+" =:"+(z<D).toString()+" days:"+H.toString()+" =:"+
+H.includes(I.toString()).toString());v.find(".ai-debug-name.ai-scheduling-status").text(c?ai_front.visible:ai_front.hidden);c||0==U||(v.removeClass("ai-debug-scheduling").addClass("ai-debug-fallback"),v.find(".ai-debug-name.ai-scheduling-status").text(ai_front.fallback+" = "+U))}}if(k||N)return!0;a(this).css({visibility:"",position:"",width:"",height:"","z-index":""});c?(e.css({visibility:""}),e.hasClass("ai-remove-position")&&e.css({position:""}),"undefined"!=typeof a(this).data("code")&&(c=b64d(a(this).data("code")),
+0!=a(this).closest("head").length?(a(this).after(c),a(this).remove()):a(this).append(c),ai_process_element(this))):f&&!y&&0!=U?(e.css({visibility:""}),e.hasClass("ai-remove-position")&&e.css({position:""}),a(this).next(".ai-fallback").removeClass("ai-fallback"),"undefined"!=typeof a(this).data("fallback-code")?(c=b64d(a(this).data("fallback-code")),a(this).append(c),ai_process_element(this)):(a(this).hide(),e.find(".ai-debug-block").length||-1!=e.attr("style").indexOf("height:")||e.hide()),c=e.attr("data-ai"),
+"undefined"!==typeof c&&!1!==c&&(c=a(this).attr("fallback-tracking"),"undefined"!==typeof c&&!1!==c&&e.attr("data-ai-"+a(this).attr("fallback_level"),c))):(a(this).hide(),e.removeAttr("data-ai").removeClass("ai-track"),e.find(".ai-debug-block").length?(e.css({visibility:""}).removeClass("ai-close"),e.hasClass("ai-remove-position")&&e.css({position:""})):-1==e.attr("style").indexOf("height:")&&e.hide());a(this).attr("data-code","");a(this).attr("data-fallback-code","");e.removeClass("ai-list-block")})}};
+a(document).ready(function(d){setTimeout(function(){ai_process_lists();setTimeout(function(){G();if("function"==typeof ai_load_blocks){var l=function(F){"cmplzEnableScripts"!=F.type&&"all"!==F.consentLevel||ai_load_blocks()};jQuery(document).on("cmplzEnableScripts",l);jQuery(document).on("cmplz_event_marketing",l)}},50);jQuery(".ai-debug-page-type").dblclick(function(){jQuery("#ai-iab-tcf-status").text("CONSENT COOKIES");jQuery("#ai-iab-tcf-bar").show()});jQuery("#ai-iab-tcf-bar").click(function(){m("euconsent-v2");
+m("__lxG__consent__v2");m("__lxG__consent__v2_daisybit");m("__lxG__consent__v2_gdaisybit");m("CookieLawInfoConsent");m("cookielawinfo-checkbox-advertisement");m("cookielawinfo-checkbox-analytics");m("cookielawinfo-checkbox-necessary");m("complianz_policy_id");m("complianz_consent_status");m("cmplz_marketing");m("cmplz_consent_status");m("cmplz_preferences");m("cmplz_statistics-anonymous");m("cmplz_choice");m("moove_gdpr_popup");m("real_cookie_banner-blog:1-tcf");m("real_cookie_banner-blog:1");jQuery("#ai-iab-tcf-status").text("CONSENT COOKIES DELETED")})},
+5)})});function ai_process_element(a){setTimeout(function(){"function"==typeof ai_process_rotations_in_element&&ai_process_rotations_in_element(a);"function"==typeof ai_process_lists&&ai_process_lists(jQuery(".ai-list-data",a));"function"==typeof ai_process_ip_addresses&&ai_process_ip_addresses(jQuery(".ai-ip-data",a));"function"==typeof ai_process_filter_hooks&&ai_process_filter_hooks(jQuery(".ai-filter-check",a));"function"==typeof ai_adb_process_blocks&&ai_adb_process_blocks(a)},5)}
+function getAllUrlParams(a){var n=a?a.split("?")[1]:window.location.search.slice(1);a={};if(n){n=n.split("#")[0];n=n.split("&");for(var B=0;B<n.length;B++){var t=n[B].split("="),G=void 0,u=t[0].replace(/\[\d*\]/,function(m){G=m.slice(1,-1);return""});t="undefined"===typeof t[1]?"":t[1];u=u.toLowerCase();t=t.toLowerCase();a[u]?("string"===typeof a[u]&&(a[u]=[a[u]]),"undefined"===typeof G?a[u].push(t):a[u][G]=t):a[u]=t}}return a};
+
+ai_js_code = true;
+}
+function ai_wait_for_jquery(){function b(f,c){var a=document.createElement("script");a.src=f;var d=document.getElementsByTagName("head")[0],e=!1;a.onload=a.onreadystatechange=function(){e||this.readyState&&"loaded"!=this.readyState&&"complete"!=this.readyState||(e=!0,c&&c(),a.onload=a.onreadystatechange=null,d.removeChild(a))};d.appendChild(a)}window.jQuery&&window.jQuery.fn?ai_run_scripts():(ai_jquery_waiting_counter++,4==ai_jquery_waiting_counter&&b("https://data-flair.training/blogs/wp-includes/js/jquery/jquery.min.js?ver=3.6.0",function(){b("https://data-flair.training/blogs/wp-includes/js/jquery/jquery-migrate.min.js?ver=5.8.2",
+null)}),30>ai_jquery_waiting_counter&&setTimeout(function(){ai_wait_for_jquery()},50))}ai_jquery_waiting_counter=0;ai_wait_for_jquery();
+
+</script>
+<script defer src="https://data-flair.training/blogs/wp-content/cache/autoptimize/2/js/autoptimize_a31ff26768c0af19d8baa0d1bce6f90d.js" type="0fc4ef21af7123d7290dc0e0-text/javascript"></script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="0fc4ef21af7123d7290dc0e0-|49" defer=""></script></body>
+</html>
